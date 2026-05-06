@@ -1,0 +1,263 @@
+{
+  "squad": [
+    {
+      "id": "skogix",
+      "name": "Skogix",
+      "tag": "@skogix",
+      "rank": "Guardian 4",
+      "rankTier": 4,
+      "games": 3550,
+      "winRate": 47.3,
+      "accentVar": "--blood",
+      "accentHex": "#ff2d4a",
+      "avatar": "🐸",
+      "avatarBg": "#2a4a2e",
+      "kda": {
+        "k": 9.6,
+        "d": 10.3,
+        "a": 16.2
+      },
+      "perf": {
+        "gpm": 499,
+        "xpm": 687,
+        "apm": 277
+      },
+      "last20": "LWLWWWWWLLLLLWLLWLWL",
+      "last20Score": "9W 11L",
+      "streak": {
+        "type": "L",
+        "count": 3,
+        "label": "3L STREAK"
+      },
+      "heroes": [
+        {
+          "name": "Viper",
+          "wr": 51.3,
+          "games": 339,
+          "img": "🐍"
+        },
+        {
+          "name": "Necrophos",
+          "wr": 55.6,
+          "games": 306,
+          "img": "💀"
+        },
+        {
+          "name": "Nature's Prophet",
+          "wr": 44.7,
+          "games": 244,
+          "img": "🌿"
+        },
+        {
+          "name": "Undying",
+          "wr": 56,
+          "games": 193,
+          "img": "🧟"
+        },
+        {
+          "name": "Arc Warden",
+          "wr": 44.2,
+          "games": 190,
+          "img": "⚡"
+        }
+      ],
+      "role": "Self-proclaimed midlaner. Statistically: a courier.",
+      "age": 41
+    },
+    {
+      "id": "zcope",
+      "name": "ZCOPE",
+      "tag": "@zcope",
+      "rank": "Guardian 4",
+      "rankTier": 4,
+      "games": 4829,
+      "winRate": 47.8,
+      "accentVar": "--cyan",
+      "accentHex": "#00e5ff",
+      "avatar": "🦈",
+      "avatarBg": "#1a3a4a",
+      "kda": {
+        "k": 7.6,
+        "d": 9.6,
+        "a": 16.9
+      },
+      "perf": {
+        "gpm": 409,
+        "xpm": 612,
+        "apm": 204
+      },
+      "last20": "LWLWWWWWLLLLLWLLWLWL",
+      "last20Score": "9W 11L",
+      "streak": null,
+      "heroes": [
+        {
+          "name": "Mirana",
+          "wr": 54.6,
+          "games": 678,
+          "img": "🏹"
+        },
+        {
+          "name": "Lion",
+          "wr": 48.5,
+          "games": 540,
+          "img": "🦁"
+        },
+        {
+          "name": "Rubick",
+          "wr": 46.6,
+          "games": 326,
+          "img": "🪄"
+        },
+        {
+          "name": "Hoodwink",
+          "wr": 49.2,
+          "games": 188,
+          "img": "🐿"
+        },
+        {
+          "name": "Snapfire",
+          "wr": 54.8,
+          "games": 184,
+          "img": "🐉"
+        }
+      ],
+      "role": "4829 games. Still hardstuck. Ratiod by physics.",
+      "age": 43
+    },
+    {
+      "id": "nagasaki",
+      "name": "\"Nagasaki\" Brave Boy",
+      "nameShort": "Nagasaki",
+      "tag": "@bravewasdestroyed",
+      "rank": "Guardian 4",
+      "rankTier": 4,
+      "games": 478,
+      "winRate": 45,
+      "accentVar": "--acid",
+      "accentHex": "#39ff88",
+      "avatar": "👤",
+      "avatarBg": "#3a3022",
+      "kda": {
+        "k": 6.9,
+        "d": 8.2,
+        "a": 17.3
+      },
+      "perf": {
+        "gpm": 436,
+        "xpm": 634,
+        "apm": 389
+      },
+      "last20": "WWWLWLWWLLLLLLLWLLLW",
+      "last20Score": "8W 12L",
+      "streak": {
+        "type": "W",
+        "count": 3,
+        "label": "3W STREAK"
+      },
+      "heroes": [
+        {
+          "name": "Dark Seer",
+          "wr": 47.8,
+          "games": 67,
+          "img": "🔮"
+        },
+        {
+          "name": "Marci",
+          "wr": 42.2,
+          "games": 64,
+          "img": "🥊"
+        },
+        {
+          "name": "Primal Beast",
+          "wr": 51.1,
+          "games": 64,
+          "img": "🦍"
+        },
+        {
+          "name": "Bounty Hunter",
+          "wr": 54.5,
+          "games": 33,
+          "img": "💰"
+        },
+        {
+          "name": "Gyrocopter",
+          "wr": 54.8,
+          "games": 31,
+          "img": "🚁"
+        }
+      ],
+      "role": "Hiroshima survived. His MMR did not.",
+      "age": 44
+    },
+    {
+      "id": "kevin",
+      "name": "kevin",
+      "tag": "@kevin",
+      "rank": "Archon 2",
+      "rankTier": 6,
+      "games": 1223,
+      "winRate": 51.8,
+      "accentVar": "--magenta",
+      "accentHex": "#ff2bd6",
+      "avatar": "👨",
+      "avatarBg": "#3a2a4a",
+      "kda": {
+        "k": 8.3,
+        "d": 7.3,
+        "a": 12.6
+      },
+      "perf": {
+        "gpm": 436,
+        "xpm": 580,
+        "apm": 133
+      },
+      "last20": "WLWWLWLLWWWLWWLWWLLW",
+      "last20Score": "10W 10L",
+      "streak": null,
+      "heroes": [
+        {
+          "name": "Omniknight",
+          "wr": 66.1,
+          "games": 56,
+          "img": "✨"
+        },
+        {
+          "name": "Pugna",
+          "wr": 49.1,
+          "games": 55,
+          "img": "👹"
+        },
+        {
+          "name": "Silencer",
+          "wr": 50.9,
+          "games": 55,
+          "img": "🤫"
+        },
+        {
+          "name": "Chaos Knight",
+          "wr": 56.6,
+          "games": 53,
+          "img": "🐎"
+        },
+        {
+          "name": "Dragon Knight",
+          "wr": 54.5,
+          "games": 53,
+          "img": "🐲"
+        }
+      ],
+      "role": "The token competent one. Carries 4 dead weights.",
+      "age": 42
+    }
+  ],
+  "stats": {
+    "winRate": 48,
+    "totalGames": 10080,
+    "avgKDA": 3,
+    "heroesPlayed": 82,
+    "lossRate": 52,
+    "totalLosses": 5242,
+    "totalWins": 4838,
+    "avgDeathsPerGame": 8.8
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "feeders": [
+    {
+      "player": "skogix",
+      "hero": "Bristleback",
+      "heroImg": "🦔",
+      "deaths": 22,
+      "k": 7,
+      "a": 23,
+      "dur": "46:45",
+      "gpm": 486,
+      "date": "04/17",
+      "badge": "DEATH SPEEDRUN CHAMPION"
+    },
+    {
+      "player": "kevin",
+      "hero": "Vengeful Spirit",
+      "heroImg": "👻",
+      "deaths": 22,
+      "k": 15,
+      "a": 34,
+      "dur": "75:15",
+      "gpm": 719,
+      "date": "03/27",
+      "badge": "PROFESSIONAL FEEDER"
+    },
+    {
+      "player": "zcope",
+      "hero": "Lina",
+      "heroImg": "🔥",
+      "deaths": 21,
+      "k": 10,
+      "a": 37,
+      "dur": "68:50",
+      "gpm": 572,
+      "date": "04/24",
+      "badge": "WALKING GOLD BAG"
+    },
+    {
+      "player": "skogix",
+      "hero": "Bristleback",
+      "heroImg": "🦔",
+      "deaths": 19,
+      "k": 11,
+      "a": 27,
+      "dur": "51:54",
+      "gpm": 594,
+      "date": "04/17",
+      "badge": "ENEMY MVP"
+    },
+    {
+      "player": "skogix",
+      "hero": "Nature's Prophet",
+      "heroImg": "🌿",
+      "deaths": 18,
+      "k": 2,
+      "a": 10,
+      "dur": "31:42",
+      "gpm": 342,
+      "date": "04/25",
+      "badge": "RESPAWN TIMER EXPERT"
+    }
+  ],
+  "kda": [
+    {
+      "player": "skogix",
+      "hero": "Nature's Prophet",
+      "heroImg": "🌿",
+      "kda": 0.67,
+      "line": "2/18/10",
+      "gpm": 342,
+      "result": "LOSS",
+      "badge": "KDA LIMBO CHAMPION"
+    },
+    {
+      "player": "nagasaki",
+      "hero": "Lich",
+      "heroImg": "❄️",
+      "kda": 0.88,
+      "line": "6/17/9",
+      "gpm": 317,
+      "result": "LOSS",
+      "badge": "SUB-ZERO IMPACT"
+    },
+    {
+      "player": "zcope",
+      "hero": "Zeus",
+      "heroImg": "⚡",
+      "kda": 0.91,
+      "line": "2/11/8",
+      "gpm": 266,
+      "result": "LOSS",
+      "badge": "WALKING CREEP"
+    },
+    {
+      "player": "skogix",
+      "hero": "Lich",
+      "heroImg": "❄️",
+      "kda": 0.94,
+      "line": "6/17/10",
+      "gpm": 273,
+      "result": "LOSS",
+      "badge": "BENCHWARMER"
+    }
+  ],
+  "duration": [
+    {
+      "player": "skogix",
+      "dur": "78:23",
+      "result": "LOSS",
+      "hero": "Tinker",
+      "heroImg": "⚙️",
+      "desc": "Refused to call GG"
+    },
+    {
+      "player": "zcope",
+      "dur": "76:11",
+      "result": "LOSS",
+      "hero": "Medusa",
+      "heroImg": "🐍",
+      "desc": "No buyback. Twice."
+    },
+    {
+      "player": "kevin",
+      "dur": "75:15",
+      "result": "LOSS",
+      "hero": "Vengeful Spirit",
+      "heroImg": "👻",
+      "desc": "22 deaths. 75 minutes. Math."
+    }
+  ],
+  "fountain": [
+    {
+      "player": "skogix",
+      "count": 14,
+      "week": "this week"
+    },
+    {
+      "player": "zcope",
+      "count": 11,
+      "week": "this week"
+    },
+    {
+      "player": "nagasaki",
+      "count": 9,
+      "week": "this week"
+    },
+    {
+      "player": "kevin",
+      "count": 4,
+      "week": "this week"
+    }
+  ]
+}

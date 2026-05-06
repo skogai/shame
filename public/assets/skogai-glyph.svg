@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00e5ff"></stop>
+      <stop offset="100%" stop-color="#ff2bd6"></stop>
+    </linearGradient>
+  </defs>
+  
+  <path d="M12 4 H60 V52 L52 60 H4 V12 Z" stroke="url(#g)" stroke-width="2" fill="#06070b"></path>
+  
+  <g font-family="Orbitron, sans-serif" font-weight="900" font-size="40" fill="url(#g)">
+    <text x="32" y="46" text-anchor="middle">S</text>
+  </g>
+  
+  <line x1="8" y1="18" x2="14" y2="18" stroke="#00e5ff" stroke-width="1.5"></line>
+  <line x1="50" y1="46" x2="56" y2="46" stroke="#ff2bd6" stroke-width="1.5"></line>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 80" fill="none">
+  
+  <g font-family="Orbitron, Rajdhani, sans-serif" font-weight="900" font-size="54" letter-spacing="8">
+    <text x="8" y="58" fill="#f4f6ff">SKOG</text>
+    <text x="178" y="58" fill="#00e5ff">AI</text>
+  </g>
+  
+  <rect x="270" y="18" width="2" height="42" fill="#ff2bd6"></rect>
+  <text x="282" y="34" font-family="JetBrains Mono, monospace" font-size="9" letter-spacing="3" fill="#8a8fa8">AUTONOMOUS</text>
+  <text x="282" y="48" font-family="JetBrains Mono, monospace" font-size="9" letter-spacing="3" fill="#8a8fa8">AGENTS · 2077</text>
+</svg>

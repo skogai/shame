@@ -1,0 +1,126 @@
+{
+  "byPlayer": {
+    "skogix": [
+      "3550 games. Still Guardian 4. Statistically you should have improved by accident.",
+      "A 47.3% winrate over 3550 games means the matchmaker has been actively trying to lose you.",
+      "Bristleback. 22 deaths. The hero literally has armor that grows when you take damage. You found a way.",
+      "Nature's Prophet 0.67 KDA. Globally mobile. Globally useless.",
+      "499 GPM on a midlaner. The creeps are farming you.",
+      "Your average game has 10.3 deaths. That's once per 4 minutes. You die more often than you blink.",
+      "Calls himself Skogix. Plays like Skogfeed.",
+      "10.3 deaths per game. Your wife knows your respawn timer better than your anniversary."
+    ],
+    "zcope": [
+      "4829 games. 47.8% winrate. A monkey hitting random keys would be Crusader by now.",
+      "ZCOPE. Cope harder. The data doesn't lie.",
+      "21 deaths on Lina. The hero has 600 cast range. The map is 14000 units wide. Do the math.",
+      "Lion at 48.5%. The most braindead support hero in the game and you can't break 50%.",
+      "204 APM. My grandfather's pacemaker has more activations.",
+      "4829 games is 4 full work-years. You could have learned Mandarin. You chose this.",
+      "Mirana 54.6% — your best hero is the one where you literally just press W and pray."
+    ],
+    "nagasaki": [
+      "478 games and a 45% winrate. You speedran being bad.",
+      "Brave Boy. Brave choices. None of them correct.",
+      "8.2 deaths a game on a position 5. The supports are supporting the enemy.",
+      "Marci 42.2%. The auto-included pick. You found the floor.",
+      "389 APM and 6.9 kills. All that clicking. None of it useful.",
+      "3W streak. Enjoy it. The regression to mean is coming.",
+      "44 years old. Still calls his Dark Seer 'a tempo pick'."
+    ],
+    "kevin": [
+      "Archon 2 with a 51.8% winrate. The bar was on the floor and you tripped over it.",
+      "133 APM. You're playing in slow motion and STILL the best on the team.",
+      "Vengeful Spirit. 22 deaths. 75 minute game. You committed to the bit.",
+      "Omniknight 66% winrate. Press R, win game. Even kevin can do it.",
+      "The token competent one. Which says more about the rest than about him.",
+      "kevin (lowercase). Even his name has given up.",
+      "12.6 average assists. Translation: he stands near the kills and hopes."
+    ]
+  },
+  "byStat": {
+    "deathsHigh": "{deaths} deaths. The fountain has a loyalty card with your name on it.",
+    "deathsCrit": "{deaths} DEATHS. You died more times than I've made coffee today.",
+    "kdaLow": "{kda} KDA. Kindergartens have higher kill-death ratios at recess.",
+    "apmLow": "{apm} APM. My screensaver is more active.",
+    "gpmLow": "{gpm} GPM. The lane creeps have a unionized labor agreement and they're still richer than you.",
+    "winrateLow": "{wr}% winrate. Coin flip is 50%. You actively researched losing.",
+    "longGameLoss": "{dur} loss. Refused to GG. Refused to buy back. Refused to grow.",
+    "streakLoss": "{count}L streak. The matchmaker is trying to tell you something.",
+    "rankStuck": "{games} games. Still {rank}. Improvement is optional, apparently."
+  },
+  "squad": [
+    "SQUAD WINRATE 48% — A SHELF MUSHROOM HAS BETTER OUTCOMES",
+    "10080 GAMES. 5242 LOSSES. THE EVIDENCE IS COMPILED",
+    "AVG 8.8 DEATHS PER GAME. ALL FOUR OF YOU. EVERY GAME.",
+    "FOUR MEN. ONE BRAIN CELL. AND IT'S NOT EVEN A GOOD ONE",
+    "COMBINED AGE: 170. COMBINED MMR: ROOM TEMPERATURE",
+    "STATUS // FEEDING DETECTED // MULTIPLE SUBJECTS",
+    "SQUAD KDA 3.0 — BUT 2.0 OF THAT IS KEVIN",
+    "WALL OF SHAME UPDATED // 12 NEW ENTRIES THIS WEEK",
+    "ALERT // FOUNTAIN OCCUPANCY EXCEEDED // PLEASE FORM A QUEUE",
+    "47% WIN RATE OVER 4 YEARS. THIS IS A LIFESTYLE CHOICE",
+    "SUSPECT 1: SKOGIX — CHARGE: FEEDING — VERDICT: GUILTY",
+    "DRAFT WARNING // BRISTLEBACK BANNED FROM CIVILIAN USE"
+  ],
+  "terminal": [
+    {
+      "lvl": "INFO",
+      "msg": "connected to opendota:: pulling match history"
+    },
+    {
+      "lvl": "INFO",
+      "msg": "parsing 10080 matches across 4 subjects"
+    },
+    {
+      "lvl": "WARN",
+      "msg": "subject SKOGIX: deaths trending UP // -3.2σ from mean"
+    },
+    {
+      "lvl": "CRIT",
+      "msg": "KDA breach: 0.67 on NATURE'S PROPHET (skogix)"
+    },
+    {
+      "lvl": "ERR",
+      "msg": "kevin fed mid // hero: vengeful spirit // 22D in 75:15"
+    },
+    {
+      "lvl": "WARN",
+      "msg": "zcope APM=204 // below human-input threshold"
+    },
+    {
+      "lvl": "INFO",
+      "msg": "nagasaki on 3W streak // anomaly flagged"
+    },
+    {
+      "lvl": "CRIT",
+      "msg": "squad WR=48.0% // confidence: high // intervention: recommended"
+    },
+    {
+      "lvl": "ERR",
+      "msg": "BRISTLEBACK detected in skogix history // 2x // 41D combined"
+    },
+    {
+      "lvl": "WARN",
+      "msg": "fountain visit count exceeds 500 ms uptime threshold"
+    },
+    {
+      "lvl": "INFO",
+      "msg": "compiling roast vectors :: 247 lines loaded"
+    },
+    {
+      "lvl": "CRIT",
+      "msg": "morale: rock bottom // continuing to play anyway"
+    }
+  ],
+  "byHero": {
+    "Bristleback": "A hero with backwards armor. You faced your enemies the wrong way.",
+    "Lina": "600 cast range. You walked closer.",
+    "Nature's Prophet": "Global mobility, zero accountability. The free-jumper.",
+    "Vengeful Spirit": "Position 4. 22 deaths. The vengeance was on yourself.",
+    "Lich": "Press Q at frozen creeps. You missed.",
+    "Zeus": "Cannot move out of fountain in 11 deaths.",
+    "Tinker": "Refused to call GG. Refused to leave the rearm.",
+    "Medusa": "No buyback. Twice. Same game."
+  }
+}

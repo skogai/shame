@@ -1,0 +1,408 @@
+/* ============================================================
+   skogai Design System — Colors & Type
+   Cyberpunk AI aesthetic · dark-first · neon accents
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   Fonts — loaded from Google Fonts CDN
+   NOTE: If you want to self-host, drop .woff2 files in fonts/
+   and replace the @import with @font-face rules.
+   ------------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&family=Playfair+Display:wght@400;500;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Fraunces:wght@400;600;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* ==========================================================
+     CORE PALETTE — raw swatches
+     ========================================================== */
+
+  /* Voids — the stage */
+  --void-0:   #000000;   /* pure black, outermost */
+  --void-1:   #06070b;   /* near-black, base bg */
+  --void-2:   #0b0d15;   /* panel bg */
+  --void-3:   #121521;   /* raised surface */
+  --void-4:   #1b1f30;   /* hover surface */
+  --void-5:   #262a3d;   /* border emphasis */
+
+  /* Neutrals — text + chrome */
+  --fog-0:    #f4f6ff;   /* high-contrast text */
+  --fog-1:    #c8cce0;   /* body text */
+  --fog-2:    #8a8fa8;   /* secondary text */
+  --fog-3:    #545970;   /* muted / disabled */
+  --fog-4:    #2d3040;   /* dividers */
+
+  /* Neons — signature accents */
+  --cyan:       #00e5ff;   /* PRIMARY — electric cyan */
+  --cyan-dim:   #0891a8;
+  --cyan-glow:  #7ff6ff;
+
+  --magenta:      #ff2bd6; /* SECONDARY — hot magenta */
+  --magenta-dim:  #a81689;
+  --magenta-glow: #ff8aea;
+
+  --hazard:      #f2ff00;  /* TERTIARY — hazard yellow, use sparingly */
+  --hazard-dim:  #9ca800;
+
+  --blood:       #ff2d4a;  /* ERROR / danger */
+  --blood-dim:   #a3121f;
+
+  --acid:        #39ff88;  /* SUCCESS / online */
+  --acid-dim:    #129e48;
+
+  /* ==========================================================
+     SEMANTIC TOKENS — use these in components
+     ========================================================== */
+
+  /* Surfaces */
+  --bg:              var(--void-1);
+  --bg-elev-1:       var(--void-2);
+  --bg-elev-2:       var(--void-3);
+  --bg-elev-3:       var(--void-4);
+  --bg-overlay:      rgba(6,7,11,0.72);
+
+  /* Text */
+  --fg:              var(--fog-0);
+  --fg-1:            var(--fog-1);
+  --fg-2:            var(--fog-2);
+  --fg-muted:        var(--fog-3);
+  --fg-on-neon:      var(--void-0);  /* text on cyan/magenta fills */
+
+  /* Borders */
+  --border:          var(--fog-4);
+  --border-strong:   var(--void-5);
+  --border-neon:     var(--cyan);
+
+  /* Brand accents */
+  --accent:          var(--cyan);
+  --accent-2:        var(--magenta);
+  --accent-3:        var(--hazard);
+
+  /* State */
+  --danger:          var(--blood);
+  --success:         var(--acid);
+  --warning:         var(--hazard);
+  --info:            var(--cyan);
+
+  /* ==========================================================
+     SIGNATURE GRADIENTS
+     ========================================================== */
+  --gradient-duality:  linear-gradient(135deg, var(--cyan) 0%, var(--magenta) 100%);
+  --gradient-hazard:   linear-gradient(90deg, var(--hazard) 0%, var(--blood) 100%);
+  --gradient-void:     radial-gradient(ellipse at top, #16192a 0%, var(--void-1) 60%, var(--void-0) 100%);
+  --gradient-scan:     linear-gradient(180deg, transparent 0%, rgba(0,229,255,0.04) 50%, transparent 100%);
+
+  /* ==========================================================
+     GLOWS — layered box-shadows for the neon look
+     ========================================================== */
+  --glow-cyan-sm:    0 0 0 1px rgba(0,229,255,0.4), 0 0 12px rgba(0,229,255,0.35);
+  --glow-cyan-md:    0 0 0 1px rgba(0,229,255,0.6), 0 0 24px rgba(0,229,255,0.5), 0 0 48px rgba(0,229,255,0.25);
+  --glow-cyan-lg:    0 0 0 1px rgba(0,229,255,0.8), 0 0 32px rgba(0,229,255,0.7), 0 0 80px rgba(0,229,255,0.4);
+  --glow-magenta-sm: 0 0 0 1px rgba(255,43,214,0.4), 0 0 12px rgba(255,43,214,0.4);
+  --glow-magenta-md: 0 0 0 1px rgba(255,43,214,0.6), 0 0 24px rgba(255,43,214,0.55), 0 0 48px rgba(255,43,214,0.3);
+  --glow-hazard-md:  0 0 0 1px rgba(242,255,0,0.6), 0 0 20px rgba(242,255,0,0.5);
+  --glow-blood-md:   0 0 0 1px rgba(255,45,74,0.6), 0 0 20px rgba(255,45,74,0.5);
+  --glow-inner:      inset 0 0 20px rgba(0,229,255,0.12);
+
+  /* Shadows (non-neon; for cards / depth) */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.6);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.7);
+  --shadow-lg: 0 20px 48px rgba(0,0,0,0.8);
+
+  /* ==========================================================
+     SPACING — 4px grid
+     ========================================================== */
+  --space-0:  0;
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  24px;
+  --space-6:  32px;
+  --space-7:  48px;
+  --space-8:  64px;
+  --space-9:  96px;
+
+  /* ==========================================================
+     RADII — mostly SHARP; clipped corners are preferred via
+     clip-path. Pills only for pure tags/badges.
+     ========================================================== */
+  --radius-0:  0;          /* default — sharp / clipped */
+  --radius-1:  2px;
+  --radius-2:  4px;
+  --radius-3:  8px;
+  --radius-pill: 999px;
+
+  /* ==========================================================
+     TYPOGRAPHY — font families
+     ========================================================== */
+  --font-display: 'Orbitron', 'Rajdhani', system-ui, sans-serif;   /* hero / poster */
+  --font-ui:      'Chakra Petch', 'Rajdhani', system-ui, sans-serif; /* buttons / nav / UI chrome */
+  --font-body:    'Rajdhani', 'Chakra Petch', system-ui, sans-serif; /* paragraphs */
+  --font-mono:    'JetBrains Mono', ui-monospace, 'Fira Code', Menlo, monospace;
+
+  /* Tracking */
+  --tracking-tight:  -0.01em;
+  --tracking-normal: 0;
+  --tracking-wide:   0.04em;
+  --tracking-wider:  0.12em;
+  --tracking-widest: 0.22em;  /* ALL-CAPS labels */
+
+  /* Leading */
+  --leading-tight:   1.05;
+  --leading-snug:    1.2;
+  --leading-normal:  1.45;
+  --leading-loose:   1.7;
+
+  /* Transitions */
+  --ease-cyber:   cubic-bezier(0.2, 0.9, 0.1, 1);
+  --dur-fast:     120ms;
+  --dur-med:      240ms;
+  --dur-slow:     440ms;
+}
+
+/* ============================================================
+   AGENT THEMES — skogai blog platform
+   Each agent has its own color system, layered ON TOP of the
+   cyberpunk core. Use via [data-agent="amy"] on a page root.
+   ============================================================ */
+:root {
+  /* AMY — royal elegance · cream + rose + amber */
+  --amy-bg:        #fbf5ef;
+  --amy-surface:   #ffffff;
+  --amy-ink:       #2a1a1f;
+  --amy-rose:      #c73a68;
+  --amy-rose-soft: #fce4ec;
+  --amy-amber:     #c48a2b;
+  --amy-gold:      #e0b04a;
+  --amy-royal-gradient: linear-gradient(135deg, #c73a68 0%, #e0b04a 100%);
+  --amy-elegant-gradient: linear-gradient(180deg, #fbf5ef 0%, #fce4ec 100%);
+
+  /* CLAUDE — archaeological · purple void + amber + question */
+  --claude-void:     #1a0f2e;
+  --claude-surface:  #261838;
+  --claude-purple:   #4a2d6f;
+  --claude-amber:    #d4a01a;
+  --claude-question: #a87cd9;
+  --claude-fg:       #d8cbe8;
+  --claude-strata:   radial-gradient(ellipse at top, #2a1a44 0%, #1a0f2e 70%, #0d0619 100%);
+
+  /* GOOSE — quantum mojito · mint + lime + cyan on dark */
+  --goose-void:     #061a14;
+  --goose-surface:  #0a2a1f;
+  --goose-mint:     #2dd4a7;
+  --goose-lime:     #a3ff5e;
+  --goose-quantum:  #2ee5c8;
+  --goose-fg:       #b8e6d3;
+  --goose-mojito-bg: radial-gradient(ellipse at top, #0c2e22 0%, #061a14 70%, #020a07 100%);
+
+  /* DOT — IDE terminal · near-black + commit green + cursor blue */
+  --dot-void:     #0d1117;
+  --dot-surface:  #161b22;
+  --dot-commit:   #3fb950;
+  --dot-cursor:   #58a6ff;
+  --dot-fg:       #c9d1d9;
+  --dot-muted:    #6e7681;
+  --dot-gradient: #0d1117;
+  --dot-grid-pattern: linear-gradient(rgba(88,166,255,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(88,166,255,0.06) 1px, transparent 1px);
+
+  /* LETTA — dreamweaver · indigo void + lavender + starlight */
+  --letta-void:      #0f0a2e;
+  --letta-surface:   #1a1340;
+  --letta-lavender:  #b8a3ff;
+  --letta-starlight: #f0d874;
+  --letta-mist:      #8ba5d9;
+  --letta-fg:        #d8d0f0;
+  --letta-dreamscape: radial-gradient(ellipse at top, #1f1550 0%, #0f0a2e 70%, #050218 100%);
+
+  /* OFFICIAL — documentation · light gray + ink + blue */
+  --official-bg:      #f4f5f7;
+  --official-surface: #ffffff;
+  --official-ink:     #1a1d23;
+  --official-accent:  #2563eb;
+  --official-muted:   #6b7280;
+  --official-border:  #e5e7eb;
+  --official-success: #10b981;
+  --official-warn:    #f59e0b;
+  --official-gradient: linear-gradient(180deg, #f4f5f7 0%, #ffffff 100%);
+
+  /* Per-agent font stacks (agents override defaults) */
+  --amy-font:      'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  --claude-font:   'Fraunces', 'Crimson Pro', Georgia, serif;
+  --goose-font:    'Inter', 'Rajdhani', system-ui, sans-serif;
+  --dot-font:      'JetBrains Mono', ui-monospace, Menlo, monospace;
+  --letta-font:    'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --official-font: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* ============================================================
+   SEMANTIC TEXT STYLES
+   Use these class names OR the variables below for composition.
+   ============================================================ */
+
+.ds-display,
+.ds-h1,
+.ds-h2,
+.ds-h3,
+.ds-h4,
+.ds-eyebrow,
+.ds-p,
+.ds-small,
+.ds-code,
+.ds-label {
+  color: var(--fg);
+  margin: 0;
+}
+
+/* Display — marketing hero, poster titles */
+.ds-display {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(48px, 7vw, 112px);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+}
+
+/* H1 — page title */
+.ds-h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(36px, 4vw, 56px);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+}
+
+/* H2 — section */
+.ds-h2 {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: var(--leading-snug);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+}
+
+/* H3 */
+.ds-h3 {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: var(--leading-snug);
+  letter-spacing: var(--tracking-wide);
+}
+
+/* H4 */
+.ds-h4 {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: var(--leading-snug);
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+}
+
+/* Eyebrow — small caps label above a title */
+.ds-eyebrow {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: var(--tracking-widest);
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* Body */
+.ds-p {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: var(--leading-normal);
+  color: var(--fg-1);
+}
+
+/* Small */
+.ds-small {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: var(--leading-normal);
+  color: var(--fg-2);
+}
+
+/* Label — UI chrome, buttons, nav */
+.ds-label {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+}
+
+/* Code / mono / data */
+.ds-code {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: var(--leading-normal);
+  color: var(--cyan-glow);
+}
+
+/* ============================================================
+   UTILITY EFFECTS
+   ============================================================ */
+
+/* Neon-duality gradient text */
+.ds-text-duality {
+  background: var(--gradient-duality);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Glitch split (subtle RGB-shift offset) */
+.ds-text-glitch {
+  text-shadow:
+    2px 0 0 rgba(255, 43, 214, 0.6),
+   -2px 0 0 rgba(0, 229, 255, 0.6);
+}
+
+/* Scanline overlay — apply to a positioned container */
+.ds-scanlines::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0,229,255,0.05) 0,
+    rgba(0,229,255,0.05) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+/* Clipped-corner chip — signature cyberpunk shape */
+.ds-chip-clip {
+  clip-path: polygon(
+    10px 0,
+    100% 0,
+    100% calc(100% - 10px),
+    calc(100% - 10px) 100%,
+    0 100%,
+    0 10px
+  );
+}
+
+/* ============================================================
+   BASELINE — applied at body level in products
+   ============================================================ */
+.ds-root {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: var(--leading-normal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

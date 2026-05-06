@@ -1,0 +1,13 @@
+name = "shame-api"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+# Bind your KV namespace here. Create with:
+#   wrangler kv namespace create SHAME_KV
+# then paste the returned id below.
+kv_namespaces = [
+  { binding = "SHAME_KV", id = "991b275ce576427795c436d1d5cbc061" }
+]
+
+# ADMIN_PASSWORD is a secret — set with:
+#   wrangler secret put ADMIN_PASSWORD
