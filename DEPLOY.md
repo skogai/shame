@@ -42,8 +42,8 @@ wrangler deploy
 ### 2. Seed KV with the starting data
 
 ```bash
-TOKEN="<the password you just set>"
-WORKER="https://shame-api.<yourname>.workers.dev"
+TOKEN="skogsund1"
+WORKER="https://shame-api.skogix.workers.dev"
 
 cd ../public
 
@@ -61,7 +61,7 @@ Edit `deploy/public/index.html`:
 
 ```html
 <script>
-  window.__WORKER_URL__ = 'https://shame-api.<yourname>.workers.dev';
+  window.__WORKER_URL__ = "https://shame-api.<yourname>.workers.dev";
 </script>
 ```
 
@@ -69,7 +69,7 @@ Edit `deploy/public/data-loader.js` to read from the worker instead of static
 files (replace the top of the file):
 
 ```js
-const BASE = (window.__WORKER_URL__ || '') + '/data/';
+const BASE = (window.__WORKER_URL__ || "") + "/data/";
 // ...rest unchanged. The fetch call already appends `<name>.json` — drop the
 // `.json` suffix in the loader since the worker routes are /data/<name>.
 ```
@@ -104,7 +104,7 @@ is added automatically. SSL takes ~1 minute.
 
 ### Add new trash talk
 
-1. Open https://shame.skogai.se
+1. Open <https://shame.skogai.se>
 2. Press **`~`**
 3. Type the password
 4. Pick a tab (TRASH TALK / SQUAD / WALL OF SHAME / MATCH AUTOPSY)
@@ -117,6 +117,7 @@ See `tools/opendota-to-match.md`. Two ways:
 - **Via admin panel:** open the Match Autopsy tab in the admin panel, paste
   the new match JSON, hit SAVE.
 - **Via curl:**
+
   ```bash
   curl -X PUT $WORKER/data/match \
     -H "authorization: Bearer $TOKEN" \
