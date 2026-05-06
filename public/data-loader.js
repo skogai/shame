@@ -3,8 +3,8 @@
 (async function () {
   const BASE = (window.__WORKER_URL__ || "") + "/data";
   // const BASE = window.__DATA_BASE__ || 'data/';
-  // const FILES = ['squad', 'disses', 'shame', 'match'];
-  // const FB = window.__FALLBACK_DATA__ || {};
+  const FILES = ["squad", "disses", "shame", "match"];
+  const FB = window.__FALLBACK_DATA__ || {};
 
   // Race fetch against a 1.5s timeout — never hang the boot
   async function load(name) {
