@@ -1,78 +1,54 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" data-screen-label="DOTA2 Hub">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>shame.skogai.se :: DOTA2 HUB</title>
-    <link rel="stylesheet" href="styles/skogai-tokens.css" />
-    <link rel="stylesheet" href="styles/app.css" />
-  </head>
-  <body>
-    <div id="root">
-      <div
-        style="
-          position: fixed;
-          inset: 0;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          color: #888;
-          font-family: monospace;
-          letter-spacing: 0.3em;
-          font-size: 11px;
-        "
-      >
-        LOADING SHAME LEDGER...
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>shame.skogai.se :: DOTA2 HUB</title>
+  <link rel="stylesheet" href="styles/skogai-tokens.css" />
+  <link rel="stylesheet" href="styles/app.css" />
+</head>
+<body>
+  <div id="root">
+    <div style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;color:#888;font-family:monospace;letter-spacing:0.3em;font-size:11px">
+      LOADING SHAME LEDGER...
     </div>
+  </div>
 
-    <!-- Worker URL for the admin panel. Empty = no remote saves (read-only). -->
-    <script>
-      window.__WORKER_URL__ = "https://shame.api.skogai.se"; // set after deploy: 'https://shame-api.YOURNAME.workers.dev'
-    </script>
+  <!-- Worker URL for the admin panel. Empty = no remote saves (read-only). -->
+  <script>
+    window.__WORKER_URL__ = ''; // set after deploy: 'https://shame-api.YOURNAME.workers.dev'
+  </script>
 
-    <!-- Inlined fallback data — page works even when fetch fails (editor preview, file://, offline) -->
-    <script src="fallback-data.js"></script>
+  <!-- Inlined fallback data — page works even when fetch fails (editor preview, file://, offline) -->
+  <script src="fallback-data.js"></script>
 
-    <!-- Data loader runs FIRST and dispatches 'data-loaded' when JSON is in window.* -->
-    <script src="data-loader.js"></script>
+  <!-- Data loader runs FIRST and dispatches 'data-loaded' when JSON is in window.* -->
+  <script src="data-loader.js"></script>
 
-    <script
-      src="https://unpkg.com/react@18.3.1/umd/react.development.js"
-      integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"
-      integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"
-      integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
 
-    <!-- Boot script: waits for data-loaded, then loads babel-transformed components. -->
-    <script>
-      function boot() {
-        const scripts = [
-          ["text/babel", "components/shared.jsx"],
-          ["text/babel", "components/autopsy.jsx"],
-          ["text/babel", "components/squad.jsx"],
-          ["text/babel", "components/pages.jsx"],
-          ["text/babel", "components/admin.jsx"],
-          ["text/babel", "app.jsx"],
-        ];
-        scripts.forEach(([type, src]) => {
-          const s = document.createElement("script");
-          s.type = type;
-          s.src = src;
-          document.body.appendChild(s);
-        });
-      }
-      if (window.__DATA_LOADED__) boot();
-      else window.addEventListener("data-loaded", boot, { once: true });
-    </script>
-  </body>
+  <!-- Boot script: waits for data-loaded, then loads babel-transformed components. -->
+  <script>
+    function boot() {
+      const scripts = [
+        ['text/babel', 'components/shared.jsx'],
+        ['text/babel', 'components/autopsy.jsx'],
+        ['text/babel', 'components/squad.jsx'],
+        ['text/babel', 'components/pages.jsx'],
+        ['text/babel', 'components/admin.jsx'],
+        ['text/babel', 'app.jsx'],
+      ];
+      scripts.forEach(([type, src]) => {
+        const s = document.createElement('script');
+        s.type = type;
+        s.src = src;
+        document.body.appendChild(s);
+      });
+    }
+    if (window.__DATA_LOADED__) boot();
+    else window.addEventListener('data-loaded', boot, { once: true });
+  </script>
+</body>
 </html>
