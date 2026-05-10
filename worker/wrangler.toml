@@ -1,6 +1,7 @@
-name = "shame.api"
+name = "shame-api"
 main = "src/index.js"
 compatibility_date = "2024-12-01"
+routes = [{ pattern = "shame.api.skogai.se/*", zone_name = "skogai.se" }]
 
 # Bind your KV namespace here. Create with:
 #   wrangler kv namespace create SHAME_KV
