@@ -43,7 +43,7 @@ wrangler deploy
 
 ```bash
 TOKEN="skogsund1"
-WORKER="https://shame-api.skogix.workers.dev"
+WORKER="https://shame.api.skogix.workers.dev"
 
 cd ../public
 

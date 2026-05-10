@@ -17,7 +17,7 @@ If you find yourself wanting to add a build pipeline, stop and re-read this para
   - `data/{squad,disses,shame,match}.json` — canonical content. These four keys are hard-coded everywhere.
   - `app.jsx`, `components/*.jsx` — UI. Loaded by `index.html` as `type="text/babel"` after `data-loaded` fires.
   - `tweaks-panel.jsx` — visual-editor side panel (separate from the admin panel below).
-- `worker/` — Cloudflare Worker `shame-api`. Source: `worker/src/index.js`. Wrangler config: `worker/wrangler.toml`.
+- `worker/` — Cloudflare Worker `shame.api`. Source: `worker/src/index.js`. Wrangler config: `worker/wrangler.toml`.
 - `wrangler.jsonc` — top-level Pages config (`name = "shame"`, assets dir `public`). Used to deploy the site as a Worker-with-assets.
 - `tools/opendota-to-match.md` — agent-facing instructions for turning an OpenDota match JSON into a new `match.json` + autopsy roast lines.
 - `DEPLOY.md`, `START_HERE.md` — human-facing setup docs. Read `START_HERE.md` first if you're orienting.
@@ -82,7 +82,7 @@ wrangler deploy
 
 # Seed / write KV from the canonical JSON
 TOKEN="$ADMIN_PASSWORD"
-WORKER="https://shame-api.<yourname>.workers.dev"
+WORKER="https://shame.api.<yourname>.workers.dev"
 for k in squad disses shame match; do
   curl -X PUT "$WORKER/data/$k" \
     -H "authorization: Bearer $TOKEN" \

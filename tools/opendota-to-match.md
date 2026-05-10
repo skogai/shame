@@ -92,7 +92,7 @@ If running with the Worker:
 
 ```bash
 TOKEN=<ADMIN_PASSWORD>
-curl -X PUT https://shame-api.YOURNAME.workers.dev/data/match \
+curl -X PUT https://shame.api.YOURNAME.workers.dev/data/match \
   -H "authorization: Bearer $TOKEN" \
   -H "content-type: application/json" \
   --data @match.json

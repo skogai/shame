@@ -1,1 +1,1 @@
-This folder contains the built output assets for the worker "shame-api" generated at 2026-05-06T16:26:08.233Z.
+This folder contains the built output assets for the worker "shame.api" generated at 2026-05-06T16:26:08.233Z.
