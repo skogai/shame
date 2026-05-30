@@ -70,6 +70,15 @@
           s.src = src;
           document.body.appendChild(s);
         });
+        // @babel/standalone only auto-transforms text/babel scripts once, on
+        // DOMContentLoaded. On the slow path (worker set), boot() runs after
+        // that scan, so the scripts we just appended must be transformed
+        // explicitly — otherwise the app never mounts and the page is stuck
+        // on "LOADING". On the fast path Babel isn't loaded yet here, and its
+        // own later auto-scan picks the scripts up, so this is a no-op then.
+        if (window.Babel && typeof window.Babel.transformScriptTags === "function") {
+          window.Babel.transformScriptTags();
+        }
       }
       if (window.__DATA_LOADED__) boot();
       else window.addEventListener("data-loaded", boot, { once: true });
