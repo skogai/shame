@@ -10,6 +10,6 @@ echo "==> Deploying Pages..."
 wrangler pages deploy public/ --project-name=shame --commit-dirty=true
 
 echo "==> Deploying Worker..."
-cd worker && wrangler deploy
+wrangler deploy -c worker/wrangler.toml
 
 echo "==> Done! Site live at https://shame.skogai.se"
