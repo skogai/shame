@@ -1,0 +1,4 @@
+provider: openrouter
+model: anthropic/claude-sonnet-4.6
+embedder: gemini
+reasoning: auto

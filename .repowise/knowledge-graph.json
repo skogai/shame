@@ -1,0 +1,3680 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "shame",
+    "is_monorepo": false,
+    "total_files": 23,
+    "entry_points": [
+      "public/app.jsx",
+      "worker/src/index.js"
+    ],
+    "tech_stack": []
+  },
+  "nodes": [
+    {
+      "id": "file:public/data-loader.js",
+      "type": "file",
+      "filePath": "public/data-loader.js",
+      "language": "javascript",
+      "symbolCount": 1,
+      "lineCount": 37,
+      "complexity": "simple",
+      "pagerank": 0.043478,
+      "communityId": 0,
+      "tags": [],
+      "summary": "",
+      "primaryOwner": "skogix"
+    },
+    {
+      "id": "function:public/data-loader.js:hydrate",
+      "type": "function",
+      "filePath": "public/data-loader.js",
+      "name": "hydrate",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:public/worker-configuration.d.ts",
+      "type": "file",
+      "filePath": "public/worker-configuration.d.ts",
+      "language": "typescript",
+      "symbolCount": 971,
+      "lineCount": 12128,
+      "complexity": "complex",
+      "pagerank": 0.043478,
+      "communityId": 1,
+      "tags": [],
+      "summary": "",
+      "primaryOwner": "skogix"
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:DOMException",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "DOMException",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:WorkerGlobalScope",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "WorkerGlobalScope",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:CompileError",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "CompileError",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:RuntimeError",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "RuntimeError",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Global",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Global",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Instance",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Instance",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Memory",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Memory",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Module",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Module",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Table",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Table",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Navigator",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Navigator",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:ColoLocalActorNamespace",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "ColoLocalActorNamespace",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:DurableObjectNamespace",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "DurableObjectNamespace",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:WebSocketRequestResponsePair",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "WebSocketRequestResponsePair",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Event",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Event",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:EventTarget",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "EventTarget",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:AbortController",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "AbortController",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:AbortSignal",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "AbortSignal",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:ExtendableEvent",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "ExtendableEvent",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:CustomEvent",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "CustomEvent",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Blob",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Blob",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:File",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "File",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:CacheStorage",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "CacheStorage",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Cache",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Cache",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Crypto",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Crypto",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:SubtleCrypto",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "SubtleCrypto",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:CryptoKey",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "CryptoKey",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:DigestStream",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "DigestStream",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:TextDecoder",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "TextDecoder",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:TextEncoder",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "TextEncoder",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:ErrorEvent",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "ErrorEvent",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:MessageEvent",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "MessageEvent",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:PromiseRejectionEvent",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "PromiseRejectionEvent",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:FormData",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "FormData",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:HTMLRewriter",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "HTMLRewriter",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:FetchEvent",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "FetchEvent",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Headers",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Headers",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Body",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Body",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:R2Object",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "R2Object",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:ScheduledEvent",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "ScheduledEvent",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:ReadableStreamDefaultReader",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "ReadableStreamDefaultReader",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:ReadableStreamBYOBReader",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "ReadableStreamBYOBReader",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:ReadableStreamBYOBRequest",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "ReadableStreamBYOBRequest",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:ReadableStreamDefaultController",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "ReadableStreamDefaultController",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:ReadableByteStreamController",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "ReadableByteStreamController",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:WritableStreamDefaultController",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "WritableStreamDefaultController",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:TransformStreamDefaultController",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "TransformStreamDefaultController",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:WritableStream",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "WritableStream",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:WritableStreamDefaultWriter",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "WritableStreamDefaultWriter",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:TransformStream",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "TransformStream",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:FixedLengthStream",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "FixedLengthStream",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:IdentityTransformStream",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "IdentityTransformStream",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:CompressionStream",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "CompressionStream",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:DecompressionStream",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "DecompressionStream",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:TextEncoderStream",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "TextEncoderStream",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:TextDecoderStream",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "TextDecoderStream",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:ByteLengthQueuingStrategy",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "ByteLengthQueuingStrategy",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:CountQueuingStrategy",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "CountQueuingStrategy",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:TailEvent",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "TailEvent",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:URL",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "URL",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:URLSearchParams",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "URLSearchParams",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:URLPattern",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "URLPattern",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:CloseEvent",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "CloseEvent",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:SqlStorageStatement",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "SqlStorageStatement",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:SqlStorageCursor",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "SqlStorageCursor",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:EventSource",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "EventSource",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:MessagePort",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "MessagePort",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Performance",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Performance",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Span",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Span",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:AiSearchItem",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "AiSearchItem",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:AiSearchItems",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "AiSearchItems",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:AiSearchJob",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "AiSearchJob",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:AiSearchJobs",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "AiSearchJobs",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:AiSearchInstance",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "AiSearchInstance",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:AiSearchNamespace",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "AiSearchNamespace",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:BaseAiImageClassification",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "BaseAiImageClassification",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:BaseAiImageToText",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "BaseAiImageToText",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:BaseAiImageTextToText",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "BaseAiImageTextToText",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:BaseAiMultimodalEmbeddings",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "BaseAiMultimodalEmbeddings",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:BaseAiObjectDetection",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "BaseAiObjectDetection",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:BaseAiSentenceSimilarity",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "BaseAiSentenceSimilarity",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:BaseAiAutomaticSpeechRecognition",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "BaseAiAutomaticSpeechRecognition",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:BaseAiSummarization",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "BaseAiSummarization",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:BaseAiTextClassification",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "BaseAiTextClassification",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:BaseAiTextEmbeddings",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "BaseAiTextEmbeddings",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:BaseAiTextGeneration",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "BaseAiTextGeneration",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:BaseAiTextToSpeech",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "BaseAiTextToSpeech",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:BaseAiTextToImage",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "BaseAiTextToImage",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:BaseAiTranslation",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "BaseAiTranslation",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Baai_Bge_Base_En_V1_5",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Baai_Bge_Base_En_V1_5",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Openai_Whisper",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Openai_Whisper",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Meta_M2M100_1_2B",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Meta_M2M100_1_2B",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Baai_Bge_Small_En_V1_5",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Baai_Bge_Small_En_V1_5",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Baai_Bge_Large_En_V1_5",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Baai_Bge_Large_En_V1_5",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Unum_Uform_Gen2_Qwen_500M",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Unum_Uform_Gen2_Qwen_500M",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Openai_Whisper_Tiny_En",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Openai_Whisper_Tiny_En",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Openai_Whisper_Large_V3_Turbo",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Openai_Whisper_Large_V3_Turbo",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Baai_Bge_M3",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Baai_Bge_M3",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Black_Forest_Labs_Flux_1_Schnell",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Black_Forest_Labs_Flux_1_Schnell",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Meta_Llama_3_2_11B_Vision_Instruct",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Meta_Llama_3_2_11B_Vision_Instruct",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Meta_Llama_3_3_70B_Instruct_Fp8_Fast",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Meta_Llama_3_3_70B_Instruct_Fp8_Fast",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Meta_Llama_Guard_3_8B",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Meta_Llama_Guard_3_8B",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Baai_Bge_Reranker_Base",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Baai_Bge_Reranker_Base",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Qwen_Qwen2_5_Coder_32B_Instruct",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Qwen_Qwen2_5_Coder_32B_Instruct",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Qwen_Qwq_32B",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Qwen_Qwq_32B",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Mistralai_Mistral_Small_3_1_24B_Instruct",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Mistralai_Mistral_Small_3_1_24B_Instruct",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Google_Gemma_3_12B_It",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Google_Gemma_3_12B_It",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Meta_Llama_4_Scout_17B_16E_Instruct",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Meta_Llama_4_Scout_17B_16E_Instruct",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Qwen_Qwen3_30B_A3B_Fp8",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Qwen_Qwen3_30B_A3B_Fp8",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Deepgram_Nova_3",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Deepgram_Nova_3",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Qwen_Qwen3_Embedding_0_6B",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Qwen_Qwen3_Embedding_0_6B",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Pipecat_Ai_Smart_Turn_V2",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Pipecat_Ai_Smart_Turn_V2",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Openai_Gpt_Oss_120B",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Openai_Gpt_Oss_120B",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Openai_Gpt_Oss_20B",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Openai_Gpt_Oss_20B",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Leonardo_Phoenix_1_0",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Leonardo_Phoenix_1_0",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Leonardo_Lucid_Origin",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Leonardo_Lucid_Origin",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Deepgram_Aura_1",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Deepgram_Aura_1",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Ai4Bharat_Indictrans2_En_Indic_1B",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Ai4Bharat_Indictrans2_En_Indic_1B",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Aisingapore_Gemma_Sea_Lion_V4_27B_It",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Aisingapore_Gemma_Sea_Lion_V4_27B_It",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Pfnet_Plamo_Embedding_1B",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Pfnet_Plamo_Embedding_1B",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Deepgram_Flux",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Deepgram_Flux",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Deepgram_Aura_2_En",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Deepgram_Aura_2_En",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Deepgram_Aura_2_Es",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Deepgram_Aura_2_Es",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Black_Forest_Labs_Flux_2_Dev",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Black_Forest_Labs_Flux_2_Dev",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Black_Forest_Labs_Flux_2_Klein_4B",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Black_Forest_Labs_Flux_2_Klein_4B",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Black_Forest_Labs_Flux_2_Klein_9B",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Black_Forest_Labs_Flux_2_Klein_9B",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Zai_Org_Glm_4_7_Flash",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Zai_Org_Glm_4_7_Flash",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Moonshotai_Kimi_K2_5",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Moonshotai_Kimi_K2_5",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Nvidia_Nemotron_3_120B_A12B",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Nvidia_Nemotron_3_120B_A12B",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Google_Gemma_4_26B_A4B_IT",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Base_Ai_Cf_Google_Gemma_4_26B_A4B_IT",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Ai",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Ai",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:AiGateway",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "AiGateway",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:AutoRAG",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "AutoRAG",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:D1Database",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "D1Database",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:D1DatabaseSession",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "D1DatabaseSession",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:D1PreparedStatement",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "D1PreparedStatement",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:EmailEvent",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "EmailEvent",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Flagship",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Flagship",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:PipelineTransformationEntrypoint",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "PipelineTransformationEntrypoint",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:RpcTarget",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "RpcTarget",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:WorkerEntrypoint",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "WorkerEntrypoint",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:DurableObject",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "DurableObject",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:WorkflowStep",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "WorkflowStep",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:WorkflowEntrypoint",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "WorkflowEntrypoint",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:ToMarkdownService",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "ToMarkdownService",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:VectorizeIndex",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "VectorizeIndex",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Vectorize",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Vectorize",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:NonRetryableError",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "NonRetryableError",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:Workflow",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "Workflow",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "class:public/worker-configuration.d.ts:WorkflowInstance",
+      "type": "class",
+      "filePath": "public/worker-configuration.d.ts",
+      "name": "WorkflowInstance",
+      "language": "typescript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:DEPLOY.md",
+      "type": "document",
+      "filePath": "DEPLOY.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 127,
+      "complexity": "moderate",
+      "pagerank": 0.043478,
+      "communityId": 2,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:public/components/autopsy.jsx",
+      "type": "file",
+      "filePath": "public/components/autopsy.jsx",
+      "language": "javascript",
+      "symbolCount": 6,
+      "lineCount": 673,
+      "complexity": "complex",
+      "pagerank": 0.043478,
+      "communityId": 3,
+      "tags": [],
+      "summary": "",
+      "primaryOwner": "skogix"
+    },
+    {
+      "id": "function:public/components/autopsy.jsx:MatchTimeline",
+      "type": "function",
+      "filePath": "public/components/autopsy.jsx",
+      "name": "MatchTimeline",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/autopsy.jsx:KillsRow",
+      "type": "function",
+      "filePath": "public/components/autopsy.jsx",
+      "name": "KillsRow",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/autopsy.jsx:KilledByCard",
+      "type": "function",
+      "filePath": "public/components/autopsy.jsx",
+      "name": "KilledByCard",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/autopsy.jsx:StatReveal",
+      "type": "function",
+      "filePath": "public/components/autopsy.jsx",
+      "name": "StatReveal",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/autopsy.jsx:Exhibit",
+      "type": "function",
+      "filePath": "public/components/autopsy.jsx",
+      "name": "Exhibit",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/autopsy.jsx:MatchAutopsyPage",
+      "type": "function",
+      "filePath": "public/components/autopsy.jsx",
+      "name": "MatchAutopsyPage",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:public/data/disses.json",
+      "type": "config",
+      "filePath": "public/data/disses.json",
+      "language": "json",
+      "symbolCount": 0,
+      "lineCount": 141,
+      "complexity": "moderate",
+      "pagerank": 0.043478,
+      "communityId": 4,
+      "tags": [
+        "config"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "file:CLAUDE.md",
+      "type": "document",
+      "filePath": "CLAUDE.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 167,
+      "complexity": "moderate",
+      "pagerank": 0.043478,
+      "communityId": 5,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:START_HERE.md",
+      "type": "document",
+      "filePath": "START_HERE.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 47,
+      "complexity": "simple",
+      "pagerank": 0.043478,
+      "communityId": 6,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:update.sh",
+      "type": "file",
+      "filePath": "update.sh",
+      "language": "shell",
+      "symbolCount": 0,
+      "lineCount": 8,
+      "complexity": "simple",
+      "pagerank": 0.043478,
+      "communityId": 7,
+      "tags": [],
+      "summary": "`update.sh` is a deployment automation script that orchestrates a full end-to-end update of the **shame.skogai.se** web property. It handles source code synchronization from the remote Git repository and deploys both the static frontend (Cloudflare Pages) and the serverless backend (Cloudflare Worker) in a single, sequ\u2026",
+      "primaryOwner": "skogix"
+    },
+    {
+      "id": "file:docs/workers.routing.md",
+      "type": "document",
+      "filePath": "docs/workers.routing.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 2254,
+      "complexity": "complex",
+      "pagerank": 0.043478,
+      "communityId": 8,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:public/app.jsx",
+      "type": "file",
+      "filePath": "public/app.jsx",
+      "language": "javascript",
+      "symbolCount": 5,
+      "lineCount": 199,
+      "complexity": "moderate",
+      "pagerank": 0.043478,
+      "communityId": 9,
+      "tags": [
+        "entry_point"
+      ],
+      "summary": "`App` is the entry point and root orchestrator of the DOTA2 HUB client application \u2014 it bootstraps the React component tree, owns all top-level state, and dispatches rendering to page-level components (`SquadPage`, `SoloPage`, `DraftPage`, `WallOfShame`, `MatchAutopsyPage`) and shared UI components (`Marquee`, `AgentTe\u2026",
+      "primaryOwner": "skogix"
+    },
+    {
+      "id": "function:public/app.jsx:App",
+      "type": "function",
+      "filePath": "public/app.jsx",
+      "name": "App",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/app.jsx:TweaksPanel",
+      "type": "function",
+      "filePath": "public/app.jsx",
+      "name": "TweaksPanel",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/app.jsx:TwSlider",
+      "type": "function",
+      "filePath": "public/app.jsx",
+      "name": "TwSlider",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/app.jsx:TwToggle",
+      "type": "function",
+      "filePath": "public/app.jsx",
+      "name": "TwToggle",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/app.jsx:TwRadio",
+      "type": "function",
+      "filePath": "public/app.jsx",
+      "name": "TwRadio",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:public/tweaks-panel.jsx",
+      "type": "file",
+      "filePath": "public/tweaks-panel.jsx",
+      "language": "javascript",
+      "symbolCount": 12,
+      "lineCount": 451,
+      "complexity": "moderate",
+      "pagerank": 0.043478,
+      "communityId": 10,
+      "tags": [],
+      "summary": "",
+      "primaryOwner": "skogix"
+    },
+    {
+      "id": "function:public/tweaks-panel.jsx:useTweaks",
+      "type": "function",
+      "filePath": "public/tweaks-panel.jsx",
+      "name": "useTweaks",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/tweaks-panel.jsx:TweaksPanel",
+      "type": "function",
+      "filePath": "public/tweaks-panel.jsx",
+      "name": "TweaksPanel",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/tweaks-panel.jsx:TweakSection",
+      "type": "function",
+      "filePath": "public/tweaks-panel.jsx",
+      "name": "TweakSection",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/tweaks-panel.jsx:TweakRow",
+      "type": "function",
+      "filePath": "public/tweaks-panel.jsx",
+      "name": "TweakRow",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/tweaks-panel.jsx:TweakSlider",
+      "type": "function",
+      "filePath": "public/tweaks-panel.jsx",
+      "name": "TweakSlider",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/tweaks-panel.jsx:TweakToggle",
+      "type": "function",
+      "filePath": "public/tweaks-panel.jsx",
+      "name": "TweakToggle",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/tweaks-panel.jsx:TweakRadio",
+      "type": "function",
+      "filePath": "public/tweaks-panel.jsx",
+      "name": "TweakRadio",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/tweaks-panel.jsx:TweakSelect",
+      "type": "function",
+      "filePath": "public/tweaks-panel.jsx",
+      "name": "TweakSelect",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/tweaks-panel.jsx:TweakText",
+      "type": "function",
+      "filePath": "public/tweaks-panel.jsx",
+      "name": "TweakText",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/tweaks-panel.jsx:TweakNumber",
+      "type": "function",
+      "filePath": "public/tweaks-panel.jsx",
+      "name": "TweakNumber",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/tweaks-panel.jsx:TweakColor",
+      "type": "function",
+      "filePath": "public/tweaks-panel.jsx",
+      "name": "TweakColor",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/tweaks-panel.jsx:TweakButton",
+      "type": "function",
+      "filePath": "public/tweaks-panel.jsx",
+      "name": "TweakButton",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:public/fallback-data.js",
+      "type": "file",
+      "filePath": "public/fallback-data.js",
+      "language": "javascript",
+      "symbolCount": 0,
+      "lineCount": 599,
+      "complexity": "complex",
+      "pagerank": 0.043478,
+      "communityId": 11,
+      "tags": [],
+      "summary": "",
+      "primaryOwner": "skogix"
+    },
+    {
+      "id": "file:public/wrangler.toml",
+      "type": "config",
+      "filePath": "public/wrangler.toml",
+      "language": "toml",
+      "symbolCount": 0,
+      "lineCount": 10,
+      "complexity": "simple",
+      "pagerank": 0.043478,
+      "communityId": 12,
+      "tags": [
+        "config"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "file:public/components/admin.jsx",
+      "type": "file",
+      "filePath": "public/components/admin.jsx",
+      "language": "javascript",
+      "symbolCount": 4,
+      "lineCount": 414,
+      "complexity": "moderate",
+      "pagerank": 0.043478,
+      "communityId": 13,
+      "tags": [],
+      "summary": "",
+      "primaryOwner": "skogix"
+    },
+    {
+      "id": "function:public/components/admin.jsx:AdminPanel",
+      "type": "function",
+      "filePath": "public/components/admin.jsx",
+      "name": "AdminPanel",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/admin.jsx:DissesEditor",
+      "type": "function",
+      "filePath": "public/components/admin.jsx",
+      "name": "DissesEditor",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/admin.jsx:DissLine",
+      "type": "function",
+      "filePath": "public/components/admin.jsx",
+      "name": "DissLine",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/admin.jsx:JsonEditor",
+      "type": "function",
+      "filePath": "public/components/admin.jsx",
+      "name": "JsonEditor",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:public/components/pages.jsx",
+      "type": "file",
+      "filePath": "public/components/pages.jsx",
+      "language": "javascript",
+      "symbolCount": 3,
+      "lineCount": 308,
+      "complexity": "moderate",
+      "pagerank": 0.043478,
+      "communityId": 14,
+      "tags": [],
+      "summary": "",
+      "primaryOwner": "skogix"
+    },
+    {
+      "id": "function:public/components/pages.jsx:WallOfShame",
+      "type": "function",
+      "filePath": "public/components/pages.jsx",
+      "name": "WallOfShame",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/pages.jsx:SoloPage",
+      "type": "function",
+      "filePath": "public/components/pages.jsx",
+      "name": "SoloPage",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/pages.jsx:DraftPage",
+      "type": "function",
+      "filePath": "public/components/pages.jsx",
+      "name": "DraftPage",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:public/components/shared.jsx",
+      "type": "file",
+      "filePath": "public/components/shared.jsx",
+      "language": "javascript",
+      "symbolCount": 6,
+      "lineCount": 124,
+      "complexity": "moderate",
+      "pagerank": 0.043478,
+      "communityId": 15,
+      "tags": [],
+      "summary": "",
+      "primaryOwner": "skogix"
+    },
+    {
+      "id": "function:public/components/shared.jsx:Marquee",
+      "type": "function",
+      "filePath": "public/components/shared.jsx",
+      "name": "Marquee",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/shared.jsx:AgentTerminal",
+      "type": "function",
+      "filePath": "public/components/shared.jsx",
+      "name": "AgentTerminal",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/shared.jsx:ToastBurns",
+      "type": "function",
+      "filePath": "public/components/shared.jsx",
+      "name": "ToastBurns",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/shared.jsx:ShameMeter",
+      "type": "function",
+      "filePath": "public/components/shared.jsx",
+      "name": "ShameMeter",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/shared.jsx:Donut",
+      "type": "function",
+      "filePath": "public/components/shared.jsx",
+      "name": "Donut",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/shared.jsx:Spark",
+      "type": "function",
+      "filePath": "public/components/shared.jsx",
+      "name": "Spark",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:public/components/squad.jsx",
+      "type": "file",
+      "filePath": "public/components/squad.jsx",
+      "language": "javascript",
+      "symbolCount": 5,
+      "lineCount": 246,
+      "complexity": "moderate",
+      "pagerank": 0.043478,
+      "communityId": 16,
+      "tags": [],
+      "summary": "",
+      "primaryOwner": "skogix"
+    },
+    {
+      "id": "function:public/components/squad.jsx:getDiss",
+      "type": "function",
+      "filePath": "public/components/squad.jsx",
+      "name": "getDiss",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/squad.jsx:PlayerCard",
+      "type": "function",
+      "filePath": "public/components/squad.jsx",
+      "name": "PlayerCard",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/squad.jsx:SquadPage",
+      "type": "function",
+      "filePath": "public/components/squad.jsx",
+      "name": "SquadPage",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/squad.jsx:RadarChart",
+      "type": "function",
+      "filePath": "public/components/squad.jsx",
+      "name": "RadarChart",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:public/components/squad.jsx:WinRateBars",
+      "type": "function",
+      "filePath": "public/components/squad.jsx",
+      "name": "WinRateBars",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:public/data/shame.json",
+      "type": "config",
+      "filePath": "public/data/shame.json",
+      "language": "json",
+      "symbolCount": 0,
+      "lineCount": 74,
+      "complexity": "simple",
+      "pagerank": 0.043478,
+      "communityId": 17,
+      "tags": [
+        "config"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "file:public/data/match.json",
+      "type": "config",
+      "filePath": "public/data/match.json",
+      "language": "json",
+      "symbolCount": 0,
+      "lineCount": 243,
+      "complexity": "moderate",
+      "pagerank": 0.043478,
+      "communityId": 18,
+      "tags": [
+        "config"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "file:public/data/squad.json",
+      "type": "config",
+      "filePath": "public/data/squad.json",
+      "language": "json",
+      "symbolCount": 0,
+      "lineCount": 135,
+      "complexity": "moderate",
+      "pagerank": 0.043478,
+      "communityId": 19,
+      "tags": [
+        "config"
+      ],
+      "summary": ""
+    },
+    {
+      "id": "file:tools/opendota-to-match.md",
+      "type": "document",
+      "filePath": "tools/opendota-to-match.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 100,
+      "complexity": "moderate",
+      "pagerank": 0.043478,
+      "communityId": 20,
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:worker/src/index.js",
+      "type": "file",
+      "filePath": "worker/src/index.js",
+      "language": "javascript",
+      "symbolCount": 3,
+      "lineCount": 80,
+      "complexity": "simple",
+      "pagerank": 0.043478,
+      "communityId": 21,
+      "tags": [
+        "entry_point"
+      ],
+      "summary": "`worker/src/index.js` is the entry point and sole request dispatcher for the `shame.skogai.se` Cloudflare Worker admin API \u2014 it receives all inbound HTTP requests, routes them to inline handlers, enforces Bearer-token authentication, and reads/writes JSON values to a bound Cloudflare KV namespace (`SHAME_KV`).",
+      "primaryOwner": "skogix"
+    },
+    {
+      "id": "function:worker/src/index.js:json",
+      "type": "function",
+      "filePath": "worker/src/index.js",
+      "name": "json",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:worker/src/index.js:auth",
+      "type": "function",
+      "filePath": "worker/src/index.js",
+      "name": "auth",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:worker/src/index.js:fetch",
+      "type": "function",
+      "filePath": "worker/src/index.js",
+      "name": "fetch",
+      "language": "javascript",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "file:worker/wrangler.toml",
+      "type": "config",
+      "filePath": "worker/wrangler.toml",
+      "language": "toml",
+      "symbolCount": 0,
+      "lineCount": 11,
+      "complexity": "simple",
+      "pagerank": 0.043478,
+      "communityId": 22,
+      "tags": [
+        "config"
+      ],
+      "summary": ""
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:public/data-loader.js",
+      "target": "function:public/data-loader.js:hydrate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:DOMException",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:WorkerGlobalScope",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:CompileError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:RuntimeError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Global",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Instance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Memory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Module",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Table",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Navigator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:ColoLocalActorNamespace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:DurableObject",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:DurableObjectNamespace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:WebSocketRequestResponsePair",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Event",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:EventTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:AbortController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:AbortSignal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:ExtendableEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:CustomEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Blob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:File",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:CacheStorage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Cache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Crypto",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:SubtleCrypto",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:CryptoKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:DigestStream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:TextDecoder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:TextEncoder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:ErrorEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:MessageEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:PromiseRejectionEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:FormData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:HTMLRewriter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:FetchEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Headers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Body",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:R2Object",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:ScheduledEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:ReadableStreamDefaultReader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:ReadableStreamBYOBReader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:ReadableStreamBYOBRequest",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:ReadableStreamDefaultController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:ReadableByteStreamController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:WritableStreamDefaultController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:TransformStreamDefaultController",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:WritableStream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:WritableStreamDefaultWriter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:TransformStream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:FixedLengthStream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:IdentityTransformStream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:CompressionStream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:DecompressionStream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:TextEncoderStream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:TextDecoderStream",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:ByteLengthQueuingStrategy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:CountQueuingStrategy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:URL",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:URLSearchParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:URLPattern",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:CloseEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:SqlStorageStatement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:SqlStorageCursor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:EventSource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:MessagePort",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Performance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Span",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:AiSearchItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:AiSearchItems",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:AiSearchJob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:AiSearchJobs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:AiSearchInstance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:AiSearchNamespace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:BaseAiImageClassification",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:BaseAiImageToText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:BaseAiImageTextToText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:BaseAiMultimodalEmbeddings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:BaseAiObjectDetection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:BaseAiSentenceSimilarity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:BaseAiAutomaticSpeechRecognition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:BaseAiSummarization",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:BaseAiTextClassification",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:BaseAiTextEmbeddings",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:BaseAiTextGeneration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:BaseAiTextToSpeech",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:BaseAiTextToImage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:BaseAiTranslation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Baai_Bge_Base_En_V1_5",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Openai_Whisper",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Meta_M2M100_1_2B",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Baai_Bge_Small_En_V1_5",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Baai_Bge_Large_En_V1_5",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Unum_Uform_Gen2_Qwen_500M",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Openai_Whisper_Tiny_En",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Openai_Whisper_Large_V3_Turbo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Baai_Bge_M3",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Black_Forest_Labs_Flux_1_Schnell",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Meta_Llama_3_2_11B_Vision_Instruct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Meta_Llama_3_3_70B_Instruct_Fp8_Fast",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Meta_Llama_Guard_3_8B",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Baai_Bge_Reranker_Base",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Qwen_Qwen2_5_Coder_32B_Instruct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Qwen_Qwq_32B",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Mistralai_Mistral_Small_3_1_24B_Instruct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Google_Gemma_3_12B_It",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Meta_Llama_4_Scout_17B_16E_Instruct",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Qwen_Qwen3_30B_A3B_Fp8",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Deepgram_Nova_3",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Qwen_Qwen3_Embedding_0_6B",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Pipecat_Ai_Smart_Turn_V2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Openai_Gpt_Oss_120B",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Openai_Gpt_Oss_20B",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Leonardo_Phoenix_1_0",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Leonardo_Lucid_Origin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Deepgram_Aura_1",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Ai4Bharat_Indictrans2_En_Indic_1B",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Aisingapore_Gemma_Sea_Lion_V4_27B_It",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Pfnet_Plamo_Embedding_1B",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Deepgram_Flux",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Deepgram_Aura_2_En",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Deepgram_Aura_2_Es",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Black_Forest_Labs_Flux_2_Dev",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Black_Forest_Labs_Flux_2_Klein_4B",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Black_Forest_Labs_Flux_2_Klein_9B",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Zai_Org_Glm_4_7_Flash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Moonshotai_Kimi_K2_5",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Nvidia_Nemotron_3_120B_A12B",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Base_Ai_Cf_Google_Gemma_4_26B_A4B_IT",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Ai",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:AiGateway",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:AutoRAG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:D1Database",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:D1DatabaseSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:D1PreparedStatement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:EmailEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Flagship",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:PipelineTransformationEntrypoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:RpcTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:WorkerEntrypoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:WorkflowStep",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:WorkflowEntrypoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:ToMarkdownService",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:VectorizeIndex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Vectorize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:NonRetryableError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:Workflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/worker-configuration.d.ts",
+      "target": "class:public/worker-configuration.d.ts:WorkflowInstance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/autopsy.jsx",
+      "target": "function:public/components/autopsy.jsx:MatchTimeline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/autopsy.jsx",
+      "target": "function:public/components/autopsy.jsx:KillsRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/autopsy.jsx",
+      "target": "function:public/components/autopsy.jsx:KilledByCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/autopsy.jsx",
+      "target": "function:public/components/autopsy.jsx:StatReveal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/autopsy.jsx",
+      "target": "function:public/components/autopsy.jsx:Exhibit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/autopsy.jsx",
+      "target": "function:public/components/autopsy.jsx:MatchAutopsyPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/app.jsx",
+      "target": "function:public/app.jsx:App",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/app.jsx",
+      "target": "function:public/app.jsx:TweaksPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/app.jsx",
+      "target": "function:public/app.jsx:TwSlider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/app.jsx",
+      "target": "function:public/app.jsx:TwToggle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/app.jsx",
+      "target": "function:public/app.jsx:TwRadio",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/tweaks-panel.jsx",
+      "target": "function:public/tweaks-panel.jsx:useTweaks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/tweaks-panel.jsx",
+      "target": "function:public/tweaks-panel.jsx:TweaksPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/tweaks-panel.jsx",
+      "target": "function:public/tweaks-panel.jsx:TweakSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/tweaks-panel.jsx",
+      "target": "function:public/tweaks-panel.jsx:TweakRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/tweaks-panel.jsx",
+      "target": "function:public/tweaks-panel.jsx:TweakSlider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/tweaks-panel.jsx",
+      "target": "function:public/tweaks-panel.jsx:TweakToggle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/tweaks-panel.jsx",
+      "target": "function:public/tweaks-panel.jsx:TweakRadio",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/tweaks-panel.jsx",
+      "target": "function:public/tweaks-panel.jsx:TweakSelect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/tweaks-panel.jsx",
+      "target": "function:public/tweaks-panel.jsx:TweakText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/tweaks-panel.jsx",
+      "target": "function:public/tweaks-panel.jsx:TweakNumber",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/tweaks-panel.jsx",
+      "target": "function:public/tweaks-panel.jsx:TweakColor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/tweaks-panel.jsx",
+      "target": "function:public/tweaks-panel.jsx:TweakButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/admin.jsx",
+      "target": "function:public/components/admin.jsx:AdminPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/admin.jsx",
+      "target": "function:public/components/admin.jsx:DissesEditor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/admin.jsx",
+      "target": "function:public/components/admin.jsx:DissLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/admin.jsx",
+      "target": "function:public/components/admin.jsx:JsonEditor",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/pages.jsx",
+      "target": "function:public/components/pages.jsx:WallOfShame",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/pages.jsx",
+      "target": "function:public/components/pages.jsx:SoloPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/pages.jsx",
+      "target": "function:public/components/pages.jsx:DraftPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/shared.jsx",
+      "target": "function:public/components/shared.jsx:Marquee",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/shared.jsx",
+      "target": "function:public/components/shared.jsx:AgentTerminal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/shared.jsx",
+      "target": "function:public/components/shared.jsx:ToastBurns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/shared.jsx",
+      "target": "function:public/components/shared.jsx:ShameMeter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/shared.jsx",
+      "target": "function:public/components/shared.jsx:Donut",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/shared.jsx",
+      "target": "function:public/components/shared.jsx:Spark",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/squad.jsx",
+      "target": "function:public/components/squad.jsx:getDiss",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/squad.jsx",
+      "target": "function:public/components/squad.jsx:PlayerCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/squad.jsx",
+      "target": "function:public/components/squad.jsx:SquadPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/squad.jsx",
+      "target": "function:public/components/squad.jsx:RadarChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:public/components/squad.jsx",
+      "target": "function:public/components/squad.jsx:WinRateBars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:worker/src/index.js",
+      "target": "function:worker/src/index.js:json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:worker/src/index.js",
+      "target": "function:worker/src/index.js:auth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:worker/src/index.js",
+      "target": "function:worker/src/index.js:fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:public",
+      "name": "Data Loading Layer",
+      "description": "Handles fetching and loading data for the frontend application.",
+      "nodeIds": [
+        "file:public/data-loader.js"
+      ],
+      "display_order": 0
+    },
+    {
+      "id": "layer:public-1",
+      "name": "Frontend App Core",
+      "description": "Contains the main application entry point, configuration, UI panels, and fallback data for the public-facing frontend.",
+      "nodeIds": [
+        "file:public/worker-configuration.d.ts",
+        "file:public/app.jsx",
+        "file:public/tweaks-panel.jsx",
+        "file:public/fallback-data.js",
+        "file:public/wrangler.toml"
+      ],
+      "display_order": 1
+    },
+    {
+      "id": "layer:deploy",
+      "name": "Deployment Documentation",
+      "description": "Provides instructions and guidance for deploying the application.",
+      "nodeIds": [
+        "file:DEPLOY.md"
+      ],
+      "display_order": 2
+    },
+    {
+      "id": "layer:public-components",
+      "name": "Autopsy UI Component",
+      "description": "A standalone UI component responsible for rendering autopsy-related views.",
+      "nodeIds": [
+        "file:public/components/autopsy.jsx"
+      ],
+      "display_order": 3
+    },
+    {
+      "id": "layer:public-data",
+      "name": "Static Content Data",
+      "description": "Stores static JSON data assets used by the application.",
+      "nodeIds": [
+        "file:public/data/disses.json"
+      ],
+      "display_order": 4
+    },
+    {
+      "id": "layer:claude",
+      "name": "Claude AI Docs",
+      "description": "Documentation file providing guidance or context specifically for Claude AI interactions with the codebase.",
+      "nodeIds": [
+        "file:CLAUDE.md"
+      ],
+      "display_order": 5
+    },
+    {
+      "id": "layer:start-here",
+      "name": "Onboarding Guide",
+      "description": "Entry-point documentation file directing new developers on where to begin with the project.",
+      "nodeIds": [
+        "file:START_HERE.md"
+      ],
+      "display_order": 6
+    },
+    {
+      "id": "layer:update",
+      "name": "Update Script",
+      "description": "Shell script for automating project update or deployment procedures.",
+      "nodeIds": [
+        "file:update.sh"
+      ],
+      "display_order": 7
+    },
+    {
+      "id": "layer:docs",
+      "name": "Workers Routing Docs",
+      "description": "Documentation describing the routing architecture and conventions for the worker layer.",
+      "nodeIds": [
+        "file:docs/workers.routing.md"
+      ],
+      "display_order": 8
+    },
+    {
+      "id": "layer:public-components-1",
+      "name": "UI Page Components",
+      "description": "Frontend React components covering admin, pages, shared utilities, and squad-related views.",
+      "nodeIds": [
+        "file:public/components/admin.jsx",
+        "file:public/components/pages.jsx",
+        "file:public/components/shared.jsx",
+        "file:public/components/squad.jsx"
+      ],
+      "display_order": 9
+    },
+    {
+      "id": "layer:public-data-1",
+      "name": "Static Match Data",
+      "description": "Static JSON data files containing squad, match, and shame information used by the application.",
+      "nodeIds": [
+        "file:public/data/shame.json",
+        "file:public/data/match.json",
+        "file:public/data/squad.json"
+      ],
+      "display_order": 10
+    },
+    {
+      "id": "layer:tools",
+      "name": "Data Transform Docs",
+      "description": "Documentation describing how to convert OpenDota API data into the application's match format.",
+      "nodeIds": [
+        "file:tools/opendota-to-match.md"
+      ],
+      "display_order": 11
+    },
+    {
+      "id": "layer:worker",
+      "name": "Worker Entry Point",
+      "description": "The main entry point for the backend worker service handling requests.",
+      "nodeIds": [
+        "file:worker/src/index.js"
+      ],
+      "display_order": 12
+    },
+    {
+      "id": "layer:worker-1",
+      "name": "Worker Configuration",
+      "description": "Wrangler configuration file defining deployment settings for the Cloudflare Worker.",
+      "nodeIds": [
+        "file:worker/wrangler.toml"
+      ],
+      "display_order": 13
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Start Here: Project Overview",
+      "description": "Begin with the onboarding and AI guidance docs to understand the project's purpose, conventions, and where everything lives before touching any code.",
+      "nodeIds": [
+        "file:START_HERE.md",
+        "file:CLAUDE.md"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Frontend Entry Point",
+      "description": "Explore the main React application entry point to understand how the frontend is bootstrapped, what top-level state exists, and how components are composed together.",
+      "nodeIds": [
+        "file:public/app.jsx",
+        "file:public/wrangler.toml",
+        "file:public/worker-configuration.d.ts"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Static Data Assets",
+      "description": "Review the static JSON data files that drive the application's content \u2014 squad rosters, match results, and shame records \u2014 to understand the core data shapes used throughout the UI.",
+      "nodeIds": [
+        "file:public/data/squad.json",
+        "file:public/data/match.json",
+        "file:public/data/shame.json",
+        "file:public/data/disses.json"
+      ]
+    },
+    {
+      "order": 4,
+      "title": "Data Loading Layer",
+      "description": "Understand how the frontend fetches and loads data at runtime, including how it falls back to static data when live sources are unavailable.",
+      "nodeIds": [
+        "file:public/data-loader.js",
+        "file:public/fallback-data.js"
+      ]
+    },
+    {
+      "order": 5,
+      "title": "Core UI Components",
+      "description": "Walk through the shared utilities and squad-specific components that form the backbone of the UI, paying attention to reusable patterns and how squad data is rendered.",
+      "nodeIds": [
+        "file:public/components/shared.jsx",
+        "file:public/components/squad.jsx"
+      ]
+    },
+    {
+      "order": 6,
+      "title": "Page and Admin Components",
+      "description": "Examine the page-level components and admin interface to see how routing and privileged views are structured within the frontend.",
+      "nodeIds": [
+        "file:public/components/pages.jsx",
+        "file:public/components/admin.jsx"
+      ]
+    },
+    {
+      "order": 7,
+      "title": "Autopsy and Tweaks UI",
+      "description": "Look at the autopsy component and tweaks panel to understand how post-match analysis is displayed and how runtime UI configuration is managed.",
+      "nodeIds": [
+        "file:public/components/autopsy.jsx",
+        "file:public/tweaks-panel.jsx"
+      ]
+    },
+    {
+      "order": 8,
+      "title": "Backend Worker Entry Point",
+      "description": "Dive into the Cloudflare Worker backend to understand how incoming requests are handled, routed, and responded to from the edge.",
+      "nodeIds": [
+        "file:worker/src/index.js",
+        "file:worker/wrangler.toml"
+      ]
+    },
+    {
+      "order": 9,
+      "title": "Worker Routing Architecture",
+      "description": "Read the routing documentation to understand the conventions and patterns used for structuring routes within the worker layer.",
+      "nodeIds": [
+        "file:docs/workers.routing.md"
+      ]
+    },
+    {
+      "order": 10,
+      "title": "Data Transformation Tooling",
+      "description": "Review the OpenDota-to-match conversion guide to understand how raw external API data is transformed into the application's internal match format.",
+      "nodeIds": [
+        "file:tools/opendota-to-match.md"
+      ]
+    },
+    {
+      "order": 11,
+      "title": "Deployment and Update Automation",
+      "description": "Finish by reviewing the deployment documentation and update script to understand how the project is shipped and kept up to date in production.",
+      "nodeIds": [
+        "file:DEPLOY.md",
+        "file:update.sh"
+      ]
+    }
+  ]
+}

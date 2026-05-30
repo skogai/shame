@@ -18,11 +18,11 @@ If you find yourself wanting to add a build pipeline, stop and re-read this para
   - `app.jsx`, `components/*.jsx` — UI. Loaded by `index.html` as `type="text/babel"` after `data-loaded` fires.
   - `tweaks-panel.jsx` — visual-editor side panel (separate from the admin panel below).
 - `worker/` — Cloudflare Worker `shame.api`. Source: `worker/src/index.js`. Wrangler config: `worker/wrangler.toml`.
-- `wrangler.jsonc` — top-level Pages config (`name = "shame"`, assets dir `public`). Used to deploy the site as a Worker-with-assets.
+- `wrangler.jsonc` — top-level Cloudflare Pages config (`name = "shame"`, `pages_build_output_dir = "public"`). Used to deploy the site with `wrangler pages deploy public`.
 - `tools/opendota-to-match.md` — agent-facing instructions for turning an OpenDota match JSON into a new `match.json` + autopsy roast lines.
 - `DEPLOY.md`, `START_HERE.md` — human-facing setup docs. Read `START_HERE.md` first if you're orienting.
 
-There are three wrangler config files (`wrangler.jsonc`, `public/wrangler.toml`, `worker/wrangler.toml`) reflecting different deploy paths. The Worker uses `worker/wrangler.toml`; the site uses either `wrangler.jsonc` (Worker-with-assets) or `wrangler pages deploy public` (Pages).
+There are two wrangler config files: `worker/wrangler.toml` (the API Worker) and top-level `wrangler.jsonc` (the site, a Cloudflare Pages project). They are separate deploy targets — always deploy the Worker with an explicit `-c worker/wrangler.toml`, because bare `wrangler deploy` resolves the root `wrangler.jsonc` (the Pages project) instead, which has no KV binding.
 
 ## Architecture
 
@@ -72,17 +72,14 @@ xdg-open public/index.html      # or open public/index.html on macOS
 
 # Local dev with the Worker (requires `npm i -g wrangler` + `wrangler login`)
 cd worker && wrangler dev        # runs the API locally
-wrangler dev                     # at the repo root: serves the site via the Worker-with-assets config
 
-# Deploy
-cd worker && wrangler deploy                              # API
+# Deploy (run both from the repo root)
+wrangler deploy -c worker/wrangler.toml                   # API Worker (must pass -c)
 wrangler pages deploy public --project-name=shame         # site (alternative: drag-drop)
-# or, using the top-level wrangler.jsonc (Worker-with-assets):
-wrangler deploy
 
 # Seed / write KV from the canonical JSON
 TOKEN="$ADMIN_PASSWORD"
-WORKER="https://shame.api.<yourname>.workers.dev"
+WORKER="https://shame.api.skogai.se"   # custom domain (or shame-api.<sub>.workers.dev)
 for k in squad disses shame match; do
   curl -X PUT "$WORKER/data/$k" \
     -H "authorization: Bearer $TOKEN" \

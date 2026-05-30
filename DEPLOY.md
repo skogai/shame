@@ -6,7 +6,8 @@ End-to-end setup for Cloudflare Pages (the site) + Cloudflare Workers + KV
 ## What you get
 
 - **`shame.skogai.se`** — the static site (Cloudflare Pages, free, fast)
-- **`shame-api.<your>.workers.dev`** — tiny API for reading/writing JSON
+- **`shame.api.skogai.se`** — tiny API Worker for reading/writing JSON
+  (worker name `shame-api`; also reachable at `shame-api.<sub>.workers.dev`)
 - **In-page admin panel** — press **`~`** anywhere on the site, enter your
   password, edit any roast or stat, hit SAVE. Live in ~5 seconds for everyone.
 
@@ -23,49 +24,48 @@ wrangler login   # opens browser, links to your Cloudflare account
 
 ### 1. Deploy the Worker (the editable backend)
 
-```bash
-cd deploy/worker
+All commands below are run from the **repo root**.
 
-# Create a KV namespace and copy the returned id into wrangler.toml
+```bash
+# Create a KV namespace and copy the returned id into worker/wrangler.toml
 wrangler kv namespace create SHAME_KV
-# → paste the id into the `id = "..."` line in wrangler.toml
+# → paste the id into the `id = "..."` line in worker/wrangler.toml
 
 # Set the admin password (this is THE password for the ~ panel)
-wrangler secret put ADMIN_PASSWORD
+wrangler secret put ADMIN_PASSWORD -c worker/wrangler.toml
 # → paste a strong password when prompted. Save it somewhere safe.
 
-# Deploy
-wrangler deploy
-# → outputs: https://shame-api.<yourname>.workers.dev
+# Deploy the Worker. The -c is REQUIRED: bare `wrangler deploy` resolves the
+# root wrangler.jsonc (the Pages site) instead of the Worker.
+wrangler deploy -c worker/wrangler.toml
+# → served at https://shame.api.skogai.se (route in worker/wrangler.toml)
 ```
 
 ### 2. Seed KV with the starting data
 
 ```bash
-TOKEN="skogsund1"
-WORKER="https://shame.api.skogix.workers.dev"
-
-cd ../public
+TOKEN="$ADMIN_PASSWORD"            # the password you set above — do NOT hard-code it
+WORKER="https://shame.api.skogai.se"
 
 for k in squad disses shame match; do
   curl -X PUT "$WORKER/data/$k" \
     -H "authorization: Bearer $TOKEN" \
     -H "content-type: application/json" \
-    --data @data/$k.json
+    --data @public/data/$k.json
 done
 ```
 
 ### 3. Wire the frontend to the worker
 
-Edit `deploy/public/index.html`:
+Edit `public/index.html`:
 
 ```html
 <script>
-  window.__WORKER_URL__ = "https://shame-api.<yourname>.workers.dev";
+  window.__WORKER_URL__ = "https://shame.api.skogai.se";
 </script>
 ```
 
-Edit `deploy/public/data-loader.js` to read from the worker instead of static
+Edit `public/data-loader.js` to read from the worker instead of static
 files (replace the top of the file):
 
 ```js
@@ -85,11 +85,10 @@ Easiest path — **drag-drop**:
 3. Drag the entire `deploy/public/` folder onto the upload zone
 4. Deploy → site is live at `shame.pages.dev`
 
-Or via CLI:
+Or via CLI (from the repo root):
 
 ```bash
-cd deploy/public
-wrangler pages deploy . --project-name=shame
+wrangler pages deploy public --project-name=shame
 ```
 
 ### 5. Custom domain `shame.skogai.se`
@@ -128,8 +127,7 @@ See `tools/opendota-to-match.md`. Two ways:
 ### Re-deploy site after changing code
 
 ```bash
-cd deploy/public
-wrangler pages deploy . --project-name=shame
+wrangler pages deploy public --project-name=shame
 ```
 
 ---
@@ -151,7 +149,8 @@ don't persist). Useful for trying out a new burn before committing.
 ## STRUCTURE
 
 ```
-deploy/
+.                              repo root
+├── wrangler.jsonc             Cloudflare Pages config for the site
 ├── public/                    static site → Cloudflare Pages
 │   ├── index.html
 │   ├── data-loader.js

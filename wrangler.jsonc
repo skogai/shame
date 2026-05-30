@@ -2,12 +2,5 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "shame",
   "compatibility_date": "2026-05-06",
-  "observability": {
-    "enabled": true,
-  },
-  "assets": {
-    "directory": "public",
-  },
-  "compatibility_flags": ["nodejs_compat"],
   "pages_build_output_dir": "public",
 }
