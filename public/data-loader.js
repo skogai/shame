@@ -35,14 +35,8 @@
     return fetch(WORKER + '/data/' + name, { cache: 'no-store', signal: ctrl.signal })
       .then(r => { clearTimeout(t); if (!r.ok) throw 0; return r.json(); })
       .catch(() => null);
-  })).then(([squad, disses, shame, match]) => {
-    if (squad || disses || shame || match) {
-      hydrate(
-        squad  || FB.squad,
-        disses || FB.disses,
-        shame  || FB.shame,
-        match  || FB.match
-      );
-    }
+  })).then(results => {
+    const [squad, disses, shame, match] = FILES.map((k, i) => results[i] || FB[k]);
+    hydrate(squad, disses, shame, match);
   });
 })();
