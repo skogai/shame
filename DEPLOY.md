@@ -124,9 +124,18 @@ See `tools/opendota-to-match.md`. Two ways:
     --data @new-match.json
   ```
 
-### Re-deploy site after changing code
+### Re-deploy site after changing code (+ reseed KV)
+
+Run the updater script — it pulls, deploys Pages, deploys the Worker, and reseeds KV in one go:
 
 ```bash
+./update.sh
+```
+
+Or manually:
+
+```bash
+unset CLOUDFLARE_API_TOKEN   # see auth note in Troubleshooting
 wrangler pages deploy public --project-name=shame
 ```
 
@@ -173,6 +182,12 @@ don't persist). Useful for trying out a new burn before committing.
 ---
 
 ## TROUBLESHOOTING
+
+- **`wrangler pages deploy` fails with "Authentication error" or "Invalid access token"** —
+  a `CLOUDFLARE_API_TOKEN` env var is set but the token lacks Pages write
+  permissions (it may be scoped to Workers only). Run `unset CLOUDFLARE_API_TOKEN`
+  first; wrangler will fall back to the OAuth token from `wrangler login`.
+  `update.sh` does this automatically.
 
 - **`~` doesn't open the panel** — focus is on an input/textarea; click empty
   space first.
