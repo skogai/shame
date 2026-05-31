@@ -24,13 +24,25 @@
     return;
   }
 
-  // SLOW PATH: worker present → fetch live data with hard timeout, fall back if any fails.
+  // Render immediately with fallback so the page isn't blank while fetching.
+  hydrate(FB.squad, FB.disses, FB.shame, FB.match);
+
+  // SLOW PATH: worker present → fetch live data with hard timeout, update globals if fresher.
   const FILES = ['squad','disses','shame','match'];
   Promise.all(FILES.map(name => {
     const ctrl = new AbortController();
     const t = setTimeout(() => ctrl.abort(), 1500);
     return fetch(WORKER + '/data/' + name, { cache: 'no-store', signal: ctrl.signal })
       .then(r => { clearTimeout(t); if (!r.ok) throw 0; return r.json(); })
-      .catch(() => FB[name] || null);
-  })).then(([squad, disses, shame, match]) => hydrate(squad, disses, shame, match));
+      .catch(() => null);
+  })).then(([squad, disses, shame, match]) => {
+    if (squad || disses || shame || match) {
+      hydrate(
+        squad  || FB.squad,
+        disses || FB.disses,
+        shame  || FB.shame,
+        match  || FB.match
+      );
+    }
+  });
 })();
