@@ -190,6 +190,70 @@
       "age": 44
     },
     {
+      "id": "jagger",
+      "name": "Jagger",
+      "tag": "@jagger",
+      "rank": "Archon 2",
+      "rankTier": 6,
+      "games": 7710,
+      "winRate": 49.4,
+      "accentVar": "--hazard",
+      "accentHex": "#f2ff00",
+      "avatar": "👴",
+      "avatarBg": "#2a2800",
+      "kda": {
+        "k": 9.8,
+        "d": 9.9,
+        "a": 16.4
+      },
+      "perf": {
+        "gpm": 390,
+        "xpm": 513,
+        "apm": 206
+      },
+      "last20": "WWWWLWLWLLLLLLLLLLLW",
+      "last20Score": "6W 14L",
+      "streak": {
+        "type": "W",
+        "count": 4,
+        "label": "4W STREAK"
+      },
+      "heroes": [
+        {
+          "name": "Sand King",
+          "wr": 55.4,
+          "games": 666,
+          "img": "🦂"
+        },
+        {
+          "name": "Nyx Assassin",
+          "wr": 48.6,
+          "games": 331,
+          "img": "🐛"
+        },
+        {
+          "name": "Outworld Devourer",
+          "wr": 50.3,
+          "games": 302,
+          "img": "👁️"
+        },
+        {
+          "name": "Slardar",
+          "wr": 53.0,
+          "games": 285,
+          "img": "🦐"
+        },
+        {
+          "name": "Spirit Breaker",
+          "wr": 50.6,
+          "games": 251,
+          "img": "🐂"
+        }
+      ],
+      "role": "Oldest man in the stack. 666 Sand King games. The numbers are not a coincidence.",
+      "age": 45
+    },
+    {
       "id": "kevin",
       "name": "kevin",
       "tag": "@kevin",
@@ -251,13 +315,13 @@
     }
   ],
   "stats": {
-    "winRate": 48,
-    "totalGames": 10080,
-    "avgKDA": 3,
+    "winRate": 49,
+    "totalGames": 17790,
+    "avgKDA": 2.9,
     "heroesPlayed": 82,
-    "lossRate": 52,
-    "totalLosses": 5244,
-    "totalWins": 4836,
-    "avgDeathsPerGame": 8.9
+    "lossRate": 51,
+    "totalLosses": 9142,
+    "totalWins": 8648,
+    "avgDeathsPerGame": 9.1
   }
 }
