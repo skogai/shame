@@ -3,18 +3,13 @@ set -euo pipefail
 
 cd "$(dirname "$0")"
 
-# CLOUDFLARE_API_TOKEN in the environment may be a scoped token that lacks
-# Pages write permissions. Unset it so wrangler falls back to the stored
-# OAuth token from `wrangler login`.
-unset CLOUDFLARE_API_TOKEN
-
 echo "==> Pulling latest..."
 git pull --rebase origin master
 
-echo "==> Deploying Pages..."
-wrangler pages deploy public/ --project-name=shame --commit-dirty=true
+echo "==> Deploying site (Worker with Static Assets)..."
+wrangler deploy   # uses root wrangler.jsonc → serves public/ via Workers
 
-echo "==> Deploying Worker..."
+echo "==> Deploying API Worker..."
 wrangler deploy -c worker/wrangler.toml
 
 echo ""
