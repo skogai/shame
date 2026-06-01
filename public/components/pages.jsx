@@ -117,7 +117,7 @@ function SoloPage({ initial = 'skogix', onBack }) {
             <span>CASE FILE :: 0042-{p.id.toUpperCase()}</span>
             <span style={{color:'var(--blood)'}}>● CLASSIFIED</span>
           </div>
-          <div className="charge">CHARGE: {p.id === 'skogix' ? 'CHRONIC FEEDING' : p.id === 'zcope' ? 'COPING IN PUBLIC' : p.id === 'nagasaki' ? 'BRAVE BOY SYNDROME' : 'CARRYING DEAD WEIGHT'}</div>
+          <div className="charge">CHARGE: {p.id === 'skogix' ? 'CHRONIC FEEDING' : p.id === 'zcope' ? 'COPING IN PUBLIC' : p.id === 'nagasaki' ? 'BRAVE BOY SYNDROME' : p.id === 'jagger' ? '666 SAND KING GAMES' : 'CARRYING DEAD WEIGHT'}</div>
           <span className="verdict">VERDICT ▸ GUILTY</span>
 
           <div style={{display:'grid', gridTemplateColumns:'repeat(4, 1fr)', gap:8, marginTop:16}}>

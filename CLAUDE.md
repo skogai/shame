@@ -10,7 +10,7 @@ If you find yourself wanting to add a build pipeline, stop and re-read this para
 
 ## Layout (the parts that matter)
 
-- `public/` — the site. Deployed to Cloudflare Pages.
+- `public/` — the site. Deployed as a Cloudflare Worker with Static Assets.
   - `index.html` — boots everything. Sets `window.__WORKER_URL__` (empty = static/offline mode).
   - `fallback-data.js` — inlined copy of `public/data/*.json`. Used when no worker is configured or fetch fails. Must stay in sync with the JSON files.
   - `data-loader.js` — synchronously hydrates `window.*` globals from fallback (fast path) or fetches from the worker with a 1.5s timeout per key (slow path). Dispatches `data-loaded`.
@@ -18,11 +18,11 @@ If you find yourself wanting to add a build pipeline, stop and re-read this para
   - `app.jsx`, `components/*.jsx` — UI. Loaded by `index.html` as `type="text/babel"` after `data-loaded` fires.
   - `tweaks-panel.jsx` — visual-editor side panel (separate from the admin panel below).
 - `worker/` — Cloudflare Worker `shame.api`. Source: `worker/src/index.js`. Wrangler config: `worker/wrangler.toml`.
-- `wrangler.jsonc` — top-level Cloudflare Pages config (`name = "shame"`, `pages_build_output_dir = "public"`). Used to deploy the site with `wrangler pages deploy public`.
+- `wrangler.jsonc` — site config (`name = "shame"`, `assets.directory = "public"`). Deploys the static site as a **Worker with Static Assets** via `wrangler deploy`. The Cloudflare GitHub integration also runs this on every push.
 - `tools/opendota-to-match.md` — agent-facing instructions for turning an OpenDota match JSON into a new `match.json` + autopsy roast lines.
 - `DEPLOY.md`, `START_HERE.md` — human-facing setup docs. Read `START_HERE.md` first if you're orienting.
 
-There are two wrangler config files: `worker/wrangler.toml` (the API Worker) and top-level `wrangler.jsonc` (the site, a Cloudflare Pages project). They are separate deploy targets — always deploy the Worker with an explicit `-c worker/wrangler.toml`, because bare `wrangler deploy` resolves the root `wrangler.jsonc` (the Pages project) instead, which has no KV binding.
+There are two wrangler config files: `worker/wrangler.toml` (the API Worker) and top-level `wrangler.jsonc` (the site). They are separate deploy targets — always deploy the API Worker with an explicit `-c worker/wrangler.toml`, because bare `wrangler deploy` resolves the root `wrangler.jsonc` (the site, no KV binding) instead.
 
 ## Architecture
 
@@ -74,8 +74,8 @@ xdg-open public/index.html      # or open public/index.html on macOS
 cd worker && wrangler dev        # runs the API locally
 
 # Deploy (run both from the repo root)
-wrangler deploy -c worker/wrangler.toml                   # API Worker (must pass -c)
-wrangler pages deploy public --project-name=shame         # site (alternative: drag-drop)
+wrangler deploy -c worker/wrangler.toml   # API Worker (must pass -c explicitly)
+wrangler deploy                           # site — uses root wrangler.jsonc (Worker with Static Assets)
 
 # Seed / write KV from the canonical JSON
 TOKEN="$ADMIN_PASSWORD"
@@ -88,7 +88,7 @@ for k in squad disses shame match; do
 done
 ```
 
-After deploy, set `window.__WORKER_URL__` in `public/index.html` to the deployed worker URL, then redeploy Pages — otherwise the admin panel is stuck in offline preview.
+After deploy, set `window.__WORKER_URL__` in `public/index.html` to the deployed API worker URL, then redeploy the site — otherwise the admin panel is stuck in offline preview.
 
 ## Editing gotchas
 

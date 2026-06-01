@@ -53,6 +53,10 @@ function PlayerCard({ p, onSelect, dissStyle = 'inline' }) {
           <span className="sticker magenta">CARRY POTENTIAL</span>
           <span className="sticker cyan">LOWERCASE</span>
         </>}
+        {p.id === 'jagger' && <>
+          <span className="sticker hazard">666 SAND KING</span>
+          <span className="sticker blood">4W STREAK</span>
+        </>}
       </div>
 
       <div className="kda-row">
@@ -108,7 +112,7 @@ function SquadPage({ onSelectPlayer, dissStyle }) {
         </div>
       </div>
 
-      <div className="section-eyebrow">PLAYER PROFILES // 4 SUBJECTS UNDER SURVEILLANCE</div>
+      <div className="section-eyebrow">PLAYER PROFILES // 5 SUBJECTS UNDER SURVEILLANCE</div>
       <div className="players-grid">
         {window.SQUAD.map((p) => (
           <PlayerCard key={p.id} p={p} onSelect={onSelectPlayer} dissStyle={dissStyle} />
@@ -207,15 +211,15 @@ function RadarChart() {
 function WinRateBars() {
   const players = window.SQUAD;
   const max = Math.max(...players.map(p => p.games));
-  const w = 400, h = 260;
-  const barW = 50, gap = 30;
-  const startX = 50;
+  const w = 480, h = 260;
+  const barW = 50, gap = 26;
+  const startX = 40;
   return (
     <svg viewBox={`0 0 ${w} ${h}`} style={{width:'100%', height:260}}>
       {[0,0.25,0.5,0.75,1].map((f, i) => {
         const y = 30 + (h-60) * (1-f);
         return <g key={i}>
-          <line x1="40" y1={y} x2={w-10} y2={y} stroke="rgba(255,255,255,0.08)" />
+          <line x1="36" y1={y} x2={w-10} y2={y} stroke="rgba(255,255,255,0.08)" />
           <text x="36" y={y+3} fontSize="9" fill="var(--fg-2)" fontFamily="var(--font-mono)" textAnchor="end">{Math.round(max*f).toLocaleString()}</text>
         </g>;
       })}
