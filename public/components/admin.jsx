@@ -23,10 +23,10 @@ function AdminPanel() {
   }));
   const [match, setMatch] = aS(() => window.MATCH || {});
 
-  // Tilde toggle
+  // x toggle
   aE(() => {
     function onKey(e) {
-      if (e.key === '~' || e.key === '`') {
+      if (e.key === 'x') {
         if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
         setOpen(o => !o);
       }
