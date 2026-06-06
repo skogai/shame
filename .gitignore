@@ -8,3 +8,4 @@
 # build output
 dist/
 /.repowise
+/.claude/worktrees
