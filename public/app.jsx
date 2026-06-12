@@ -61,9 +61,10 @@ function App() {
           <span style={{color:'var(--fg-2)', fontSize:11, letterSpacing:'0.2em', marginLeft:8, fontFamily:'var(--font-mono)', fontWeight:400}}>// shame.skogai.se</span>
         </div>
         <div className="topnav">
-          {['squad','solo','draft','wall','autopsy','excuses'].map(t => (
-            <button key={t} className={tab===t ? 'active' : ''} onClick={() => setTab(t)}>
-              {t === 'wall' ? 'Wall of Shame' : t === 'autopsy' ? 'Match Autopsy' : t === 'excuses' ? 'Excuses' : t}
+          {['squad','solo','draft','wall','autopsy','excuses','wrapped'].map(t => (
+            <button key={t} className={tab===t ? 'active' : ''} onClick={() => setTab(t)}
+              style={t === 'wrapped' ? {color: tab===t ? undefined : 'var(--blood)', textShadow: '0 0 8px rgba(255,45,74,0.6)'} : undefined}>
+              {t === 'wall' ? 'Wall of Shame' : t === 'autopsy' ? 'Match Autopsy' : t === 'excuses' ? 'Excuses' : t === 'wrapped' ? '✦ Wrapped' : t}
             </button>
           ))}
         </div>
@@ -73,7 +74,7 @@ function App() {
 
       <div className="page">
         {/* Agent terminal pinned at top of every page */}
-        {tweaks.agentTerminal && tab !== 'solo' && tab !== 'autopsy' && (
+        {tweaks.agentTerminal && tab !== 'solo' && tab !== 'autopsy' && tab !== 'wrapped' && (
           <div style={{marginBottom: 24}}>
             <AgentTerminal enabled={true} />
           </div>
@@ -85,9 +86,10 @@ function App() {
         {tab === 'wall' && <window.WallOfShame />}
         {tab === 'autopsy' && <window.MatchAutopsyPage />}
         {tab === 'excuses' && <window.ExcusePage />}
+        {tab === 'wrapped' && <window.ShameWrappedPage />}
 
         <div style={{textAlign:'center', marginTop:48, padding:'24px 0', borderTop:'1px solid var(--border)', fontFamily:'var(--font-mono)', fontSize:11, color:'var(--fg-2)', letterSpacing:'0.3em'}}>
-          DATA :: OPENDOTA · DOTABUFF · STRATZ &nbsp;//&nbsp; SHAME :: COMPILED LOCALLY &nbsp;//&nbsp; v0.43 «THE EXCUSE UPDATE» — skogai
+          DATA :: OPENDOTA · DOTABUFF · STRATZ &nbsp;//&nbsp; SHAME :: COMPILED LOCALLY &nbsp;//&nbsp; v0.50 «SHAME WRAPPED — THE BIGGEST UPDATE IN DOTA-SHAME HISTORY» — skogai
         </div>
       </div>
 
