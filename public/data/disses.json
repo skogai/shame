@@ -146,7 +146,12 @@
     "TOTAL LOSSES: 9142. TOTAL GAINS: UNCLEAR.",
     "FIVE PLAYERS. FIVE DIFFERENT WAYS TO THROW A LEAD.",
     "STATUS UPDATE // SKOGIX DIED AGAIN // THIS IS NOT AN ANOMALY // THIS IS CONTENT",
-    "SQUAD MORALE: TECHNICALLY STILL LOGGING IN. THAT COUNTS FOR SOMETHING."
+    "SQUAD MORALE: TECHNICALLY STILL LOGGING IN. THAT COUNTS FOR SOMETHING.",
+    "NEW MODULE ONLINE // EXCUSE-O-MATIC 9000 // ALL EXCUSES PRE-DENIED",
+    "EXCUSE BACKLOG: 9142 FILED. 0 ACCEPTED. THE QUEUE GROWS.",
+    "KEVIN EXCUSE CREDIBILITY: 31%. SQUAD RECORD. THE BAR IS A TRENCH.",
+    "ZCOPE CREDIBILITY AUDIT: 2% // BELOW INSTRUMENT ERROR // READING MAY BE GENEROUS",
+    "v0.43 «THE EXCUSE UPDATE» DEPLOYED // THE SHAME PIPELINE IS NOW SELF-EXCUSING"
   ],
   "terminal": [
     {
@@ -268,6 +273,22 @@
     {
       "lvl": "CRIT",
       "msg": "17790 games across 5 subjects :: zero immortal medals :: archiving under 'evidence'"
+    },
+    {
+      "lvl": "INFO",
+      "msg": "excuse-o-matic 9000 online :: corpus loaded :: 1000 combinations of cope available"
+    },
+    {
+      "lvl": "WARN",
+      "msg": "excuse submitted (skogix) :: 'lag' :: ping log shows 23ms :: filed under fiction"
+    },
+    {
+      "lvl": "ERR",
+      "msg": "excuse queue overflow :: 9142 unprocessed :: all pre-stamped DENIED"
+    },
+    {
+      "lvl": "CRIT",
+      "msg": "jagger cited 2012 patch notes as exculpatory evidence :: motion denied :: again"
     }
   ],
   "byHero": {
@@ -297,5 +318,81 @@
     "Arc Warden": "You make a clone of yourself so you can feed on two parts of the map simultaneously.",
     "Undying": "You come back from death. You go back to death. The cycle is complete.",
     "Bounty Hunter": "Tracks enemies. Earns gold. Still Archon. The bounty on improvement remains uncollected."
+  },
+  "excuses": {
+    "deflections": [
+      "I WAS LAGGING (180 PING, ALLEGEDLY)",
+      "MY MOUSE DOUBLE-CLICKED",
+      "I MISCLICKED THE TP",
+      "THE SUN WAS IN MY EYES AT 02:40 AM",
+      "I WAS BASICALLY PLAYING FROM MY PHONE",
+      "MY CHAIR IS NOT ERGONOMIC",
+      "I HAD NO VISION ALL GAME",
+      "MY HAND FELL ASLEEP",
+      "DISCORD WAS ECHOING",
+      "I JUST GOT OFF WORK"
+    ],
+    "scapegoats": [
+      "KEVIN NEVER ROTATED",
+      "SKOGIX INSTALOCKED BRISTLEBACK AGAIN",
+      "ZCOPE ARROWED A TREE AT 22:14",
+      "NAGASAKI 'MADE SPACE' IN THEIR FOUNTAIN",
+      "JAGGER PICKED SAND KING (GAME 667)",
+      "THE DRAFT WAS GRIEFED IN PICK PHASE",
+      "THE MATCHMAKER HATES THE STACK",
+      "OUR CARRY WAS JUNGLING SINCE MINUTE 4",
+      "THE COURIER DIED WITH MY ITEMS",
+      "SOMEONE PINGED MY ITEMS MID-FIGHT"
+    ],
+    "copes": [
+      "I WAS WINNING MY LANE THOUGH",
+      "CHECK THE GRAPH AT MINUTE 20",
+      "MY HERO GETS BUFFED NEXT PATCH",
+      "WE WIN THAT IF IT GOES 80 MINUTES",
+      "MY KDA DOESN'T SHOW THE SPACE I MADE",
+      "I HAD THE MOST HERO DAMAGE (ON TOWERS)",
+      "RANKED DOESN'T COUNT AFTER MIDNIGHT",
+      "I WAS TESTING A BUILD FROM A 12K GAME",
+      "THE REPLAY WILL VINDICATE ME",
+      "IT'S A 4.5K LOBBY IN SPIRIT"
+    ],
+    "verdicts": [
+      "DENIED",
+      "REJECTED — INSUFFICIENT COPE",
+      "FILED UNDER: FICTION",
+      "OVERRULED. THE LOG REMEMBERS.",
+      "APPEAL SCHEDULED FOR NEVER",
+      "PLAUSIBLE — WAIT, NO. DENIED.",
+      "DENIED. AND THE PREVIOUS 9141 TOO."
+    ],
+    "kevinVerdict": "…PLAUSIBLE, ACTUALLY. CARRY ON, KEVIN.",
+    "signature": {
+      "skogix": [
+        "The 22 deaths on Bristleback were strategic map pressure. Someone has to test their fountain.",
+        "499 GPM is a lifestyle, not a statistic.",
+        "I'm not hardstuck Guardian 4. The 3550 games are a longitudinal study."
+      ],
+      "zcope": [
+        "The trees moved. All 678 arrows were on target when fired.",
+        "21 deaths on Lina is just aggressive vision placement.",
+        "4829 games isn't an addiction, it's a data set."
+      ],
+      "nagasaki": [
+        "8.2 deaths a game is space creation. You're welcome.",
+        "Dark Seer IS a tempo pick. The tempo is theirs, but it's a tempo.",
+        "389 APM means I'm doing a lot. Define 'useful'."
+      ],
+      "kevin": [
+        "I can't carry four grown men at 133 APM. Physically. The wrists.",
+        "The 75-minute Venge game was performance art.",
+        "Someone has to stand near the kills. 12.6 assists of pure presence."
+      ],
+      "jagger": [
+        "Sand King has been nerfed every patch since 2012. Game 667 will be different.",
+        "My APM was higher before they changed the map. In 2014.",
+        "666 Sand King games isn't a rut. It's a religion."
+      ]
+    },
+    "credibility": { "skogix": 4, "zcope": 2, "nagasaki": 7, "kevin": 31, "jagger": 9 }
   }
 }

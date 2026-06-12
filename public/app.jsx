@@ -61,9 +61,9 @@ function App() {
           <span style={{color:'var(--fg-2)', fontSize:11, letterSpacing:'0.2em', marginLeft:8, fontFamily:'var(--font-mono)', fontWeight:400}}>// shame.skogai.se</span>
         </div>
         <div className="topnav">
-          {['squad','solo','draft','wall','autopsy'].map(t => (
+          {['squad','solo','draft','wall','autopsy','excuses'].map(t => (
             <button key={t} className={tab===t ? 'active' : ''} onClick={() => setTab(t)}>
-              {t === 'wall' ? 'Wall of Shame' : t === 'autopsy' ? 'Match Autopsy' : t}
+              {t === 'wall' ? 'Wall of Shame' : t === 'autopsy' ? 'Match Autopsy' : t === 'excuses' ? 'Excuses' : t}
             </button>
           ))}
         </div>
@@ -84,9 +84,10 @@ function App() {
         {tab === 'draft' && <window.DraftPage />}
         {tab === 'wall' && <window.WallOfShame />}
         {tab === 'autopsy' && <window.MatchAutopsyPage />}
+        {tab === 'excuses' && <window.ExcusePage />}
 
         <div style={{textAlign:'center', marginTop:48, padding:'24px 0', borderTop:'1px solid var(--border)', fontFamily:'var(--font-mono)', fontSize:11, color:'var(--fg-2)', letterSpacing:'0.3em'}}>
-          DATA :: OPENDOTA · DOTABUFF · STRATZ &nbsp;//&nbsp; SHAME :: COMPILED LOCALLY &nbsp;//&nbsp; v0.42 — skogai
+          DATA :: OPENDOTA · DOTABUFF · STRATZ &nbsp;//&nbsp; SHAME :: COMPILED LOCALLY &nbsp;//&nbsp; v0.43 «THE EXCUSE UPDATE» — skogai
         </div>
       </div>
 

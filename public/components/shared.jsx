@@ -41,7 +41,7 @@ function AgentTerminal({ enabled }) {
   return (
     <div className="agent-term">
       <div className="term-head">
-        <span><span className="dot" style={{display:'inline-block', marginRight:6, verticalAlign:'middle'}}></span>SKOGAI :: SHAME-ENGINE v0.42</span>
+        <span><span className="dot" style={{display:'inline-block', marginRight:6, verticalAlign:'middle'}}></span>SKOGAI :: SHAME-ENGINE v0.43</span>
         <span>STREAM ▸ LIVE</span>
       </div>
       {lines.map((l) => (
