@@ -312,16 +312,80 @@
       ],
       "role": "The token competent one. Carries 4 dead weights.",
       "age": 42
+    },
+    {
+      "id": "karasu",
+      "name": "Karasu",
+      "tag": "@karasu",
+      "rank": "Herald 3",
+      "rankTier": 13,
+      "games": 1167,
+      "winRate": 48.5,
+      "accentVar": "--hazard",
+      "accentHex": "#f2ff00",
+      "avatar": "🐦‍⬛",
+      "avatarBg": "#3a3a2a",
+      "kda": {
+        "k": 10.2,
+        "d": 9.1,
+        "a": 13.5
+      },
+      "perf": {
+        "gpm": 522,
+        "xpm": 757,
+        "apm": 256
+      },
+      "last20": "LWLLLWWLLLWWWLLWLWWW",
+      "last20Score": "10W 10L",
+      "streak": {
+        "type": "W",
+        "count": 3,
+        "label": "3W STREAK"
+      },
+      "heroes": [
+        {
+          "name": "Drow Ranger",
+          "wr": 51.6,
+          "games": 446,
+          "img": "🏹"
+        },
+        {
+          "name": "Necrophos",
+          "wr": 51.7,
+          "games": 89,
+          "img": "💀"
+        },
+        {
+          "name": "Razor",
+          "wr": 51.4,
+          "games": 72,
+          "img": "⚡"
+        },
+        {
+          "name": "Silencer",
+          "wr": 48.6,
+          "games": 70,
+          "img": "🤫"
+        },
+        {
+          "name": "Riki",
+          "wr": 50.8,
+          "games": 65,
+          "img": "🥷"
+        }
+      ],
+      "role": "The reserve. Brought in to raise the floor. The floor did not move.",
+      "age": 39
     }
   ],
   "stats": {
-    "winRate": 49,
-    "totalGames": 17790,
-    "avgKDA": 2.9,
-    "heroesPlayed": 82,
-    "lossRate": 51,
-    "totalLosses": 9142,
-    "totalWins": 8648,
-    "avgDeathsPerGame": 9.1
+    "winRate": 48,
+    "totalGames": 11247,
+    "avgKDA": 3,
+    "heroesPlayed": 85,
+    "lossRate": 52,
+    "totalLosses": 5845,
+    "totalWins": 5402,
+    "avgDeathsPerGame": 8.9
   }
 }

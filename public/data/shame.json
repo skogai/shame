@@ -59,6 +59,18 @@
       "gpm": 342,
       "date": "04/25",
       "badge": "RESPAWN TIMER EXPERT"
+    },
+    {
+      "player": "karasu",
+      "hero": "Monkey King",
+      "heroImg": "🐒",
+      "deaths": 23,
+      "k": 12,
+      "a": 34,
+      "dur": "69:18",
+      "gpm": 491,
+      "date": "01/28",
+      "badge": "NEW HIGH SCORE"
     }
   ],
   "kda": [

@@ -314,17 +314,81 @@ window.__FALLBACK_DATA__ = {
       ],
       "role": "The token competent one. Carries 4 dead weights.",
       "age": 42
+    },
+    {
+      "id": "karasu",
+      "name": "Karasu",
+      "tag": "@karasu",
+      "rank": "Herald 3",
+      "rankTier": 13,
+      "games": 1167,
+      "winRate": 48.5,
+      "accentVar": "--hazard",
+      "accentHex": "#f2ff00",
+      "avatar": "🐦‍⬛",
+      "avatarBg": "#3a3a2a",
+      "kda": {
+        "k": 10.2,
+        "d": 9.1,
+        "a": 13.5
+      },
+      "perf": {
+        "gpm": 522,
+        "xpm": 757,
+        "apm": 256
+      },
+      "last20": "LWLLLWWLLLWWWLLWLWWW",
+      "last20Score": "10W 10L",
+      "streak": {
+        "type": "W",
+        "count": 3,
+        "label": "3W STREAK"
+      },
+      "heroes": [
+        {
+          "name": "Drow Ranger",
+          "wr": 51.6,
+          "games": 446,
+          "img": "🏹"
+        },
+        {
+          "name": "Necrophos",
+          "wr": 51.7,
+          "games": 89,
+          "img": "💀"
+        },
+        {
+          "name": "Razor",
+          "wr": 51.4,
+          "games": 72,
+          "img": "⚡"
+        },
+        {
+          "name": "Silencer",
+          "wr": 48.6,
+          "games": 70,
+          "img": "🤫"
+        },
+        {
+          "name": "Riki",
+          "wr": 50.8,
+          "games": 65,
+          "img": "🥷"
+        }
+      ],
+      "role": "The reserve. Brought in to raise the floor. The floor did not move.",
+      "age": 39
     }
   ],
   "stats": {
-    "winRate": 49,
-    "totalGames": 17790,
-    "avgKDA": 2.9,
-    "heroesPlayed": 82,
-    "lossRate": 51,
-    "totalLosses": 9140,
-    "totalWins": 8650,
-    "avgDeathsPerGame": 9.1
+    "winRate": 48,
+    "totalGames": 11247,
+    "avgKDA": 3,
+    "heroesPlayed": 85,
+    "lossRate": 52,
+    "totalLosses": 5843,
+    "totalWins": 5404,
+    "avgDeathsPerGame": 8.8
   }
 },
   disses: {
@@ -393,37 +457,17 @@ window.__FALLBACK_DATA__ = {
       "Omniknight 66% winrate. Press R, win game. Even kevin can do it.",
       "The token competent one. Which says more about the rest than about him.",
       "kevin (lowercase). Even his name has given up.",
-      "12.6 average assists. Translation: he stands near the kills and hopes.",
-      "51.8% over 1223 games. The only one in this group whose winrate doesn't actively embarrass them.",
-      "133 APM and top-fragging. The sloth is the apex predator. Everyone else is clicking faster and dying sooner.",
-      "Omniknight 66.1% over 56 games. You found the one hero that wins by pressing R and standing still. Wise.",
-      "Dragon Knight 54.5%. You transform into a literal dragon. Still only barely above average. Lower your standards.",
-      "Chaos Knight 56.6%. Even the RNG hero likes you. The RNG hero has low standards.",
-      "1223 games. The newest to the stack. The most successful. File that somewhere.",
-      "Pugna 49.1%. The hero with a ward that wins fights by existing. Still below 50%. Impressive.",
-      "Silencer 50.9% — your entire gameplan is making enemies shut up. Same energy at the keyboard.",
-      "42 years old, Archon 2. The senior team member by MMR. Not by age. That honor belongs to the fossil.",
-      "580 XPM. The only number in this dataset that doesn't make a doctor cry."
+      "12.6 average assists. Translation: he stands near the kills and hopes."
     ],
-    "jagger": [
-      "7710 games. 45 years old. You have been playing Dota since before some professionals were in school.",
-      "666 Sand King games. At 30 minutes a game that's 333 hours buried in sand. You live there. It is your home.",
-      "49.4% winrate over 7710 games. You have achieved perfect cosmic mediocrity at industrial scale.",
-      "390 GPM on Sand King. The hero literally doesn't need farm. You found a way to be poor on him anyway.",
-      "206 APM. The connection you played on when Dota launched had more packets per second.",
-      "45 years old. Playing alongside people a decade younger. Still in the same rank bracket. Humbling.",
-      "Sand King 666 games, 55.4% WR. The one hero where you win more than you lose. The devil's bargain is working.",
-      "7710 games is approximately 3,855 hours. You could have learned piano. You chose Sand King. 666 times.",
-      "Archon 2 at 45. The MMR trajectory over 7710 games suggests Archon 3 is possible before retirement.",
-      "Spirit Breaker 50.6% over 251 games. You charge in a straight line and win half the time. The line is your only tactic.",
-      "6W 14L last 20. Currently on a 4W streak, which is either a comeback or a dead-cat bounce. Monitoring.",
-      "Nyx Assassin 331 games at 48.6%. You play the assassination hero and can't break 50. The target survives.",
-      "Outworld Devourer 302 games, 50.3%. Three hundred games on the big brain hero. The result is statistically average.",
-      "Slardar 285 games. An underwater troll. You identified with him immediately.",
-      "The oldest man in the stack. The game was younger when you started. So were you.",
-      "7710 games and Archon 2. The word for this is 'committed'. Another word for it is 'trapped'.",
-      "513 XPM. The creeps have been levelling faster than you since 2012.",
-      "49.4% winrate. Not bad enough to be a meme. Not good enough to be respected. The purgatory is yours."
+    "karasu": [
+      "1167 games, 48.5% winrate. The reserve. Bold of the squad to think this raises the floor.",
+      "Herald 3. That's an actual rank below Guardian. Skogix, Zcope, and Nagasaki just got promoted by comparison.",
+      "446 games on Drow Ranger. 38% of his career is one hero whose ultimate he still uses to scout, not to fight.",
+      "Monkey King, 23 deaths, 69 minutes, loss. New squad record. He's been here five minutes.",
+      "2014 alias: 'vill vara lika bra som kraijn'. 2026: Herald 3. kraijn remains undisturbed.",
+      "Six names in twelve years — Smile, SmileSebbe, Taef, Third King, Karasu — none of them learned to ward.",
+      "3W streak. First time this squad's combined streak counter has read positive all season.",
+      "522 GPM, 256 APM, 1167 games. Forgettable. Refreshingly, for once, not actively negative."
     ]
   },
   "byStat": {
@@ -448,10 +492,10 @@ window.__FALLBACK_DATA__ = {
   },
   "squad": [
     "SQUAD WINRATE 48% — A SHELF MUSHROOM HAS BETTER OUTCOMES",
-    "10080 GAMES. 5242 LOSSES. THE EVIDENCE IS COMPILED",
-    "AVG 8.8 DEATHS PER GAME. ALL FOUR OF YOU. EVERY GAME.",
-    "FOUR MEN. ONE BRAIN CELL. AND IT'S NOT EVEN A GOOD ONE",
-    "COMBINED AGE: 170. COMBINED MMR: ROOM TEMPERATURE",
+    "11247 GAMES. 5843 LOSSES. THE EVIDENCE IS COMPILED",
+    "AVG 8.8 DEATHS PER GAME. ALL FIVE OF YOU. EVERY GAME.",
+    "FIVE MEN. ONE BRAIN CELL. AND IT'S NOT EVEN A GOOD ONE",
+    "COMBINED AGE: 209. COMBINED MMR: ROOM TEMPERATURE",
     "STATUS // FEEDING DETECTED // MULTIPLE SUBJECTS",
     "SQUAD KDA 3.0 — BUT 2.0 OF THAT IS KEVIN",
     "WALL OF SHAME UPDATED // 12 NEW ENTRIES THIS WEEK",
@@ -459,28 +503,7 @@ window.__FALLBACK_DATA__ = {
     "47% WIN RATE OVER 4 YEARS. THIS IS A LIFESTYLE CHOICE",
     "SUSPECT 1: SKOGIX — CHARGE: FEEDING — VERDICT: GUILTY",
     "DRAFT WARNING // BRISTLEBACK BANNED FROM CIVILIAN USE",
-    "FIFTH OPERATIVE ACQUIRED // DESIGNATION: JAGGER // AGE: 45 // THREAT LEVEL: ANTIQUE",
-    "SQUAD NOW AT FIVE. THE MISERY IS FULLY STAFFED.",
-    "17790 COMBINED GAMES. ZERO DIVINE MEDALS. THE MATH IS DOING THE WORK.",
-    "COMBINED AGE: 215. COMBINED MMR: A FIRM HANDSHAKE AND A PRAYER.",
-    "NEW UNIT ONLINE: JAGGER // 666 SAND KING GAMES // CLASSIFIED AS BIBLICAL HAZARD",
-    "FIVE MAN STACK CONFIRMED // PREDICTED WIN RATE: 49% // CONFIDENCE: HIGH",
-    "THE FIFTH ARRIVED. THE AVERAGE AGE WENT UP. THE WIN RATE DID NOT.",
-    "WIN 49%, LOSE 51%. THIS IS NOT VARIANCE. THIS IS PERSONALITY.",
-    "49% WINRATE. 17790 GAMES. SAMPLE SIZE SUFFICIENT. VERDICT CLEAR.",
-    "SQUAD AVERAGE DEATH COUNT: 9.1 // RECOMMENDATION: PLAY FURTHER FROM FRONT",
-    "ONE ARCHON. THREE GUARDIANS. AND A QUESTION ABOUT LIFE CHOICES.",
-    "TWO ARCHON 2s ON THE SQUAD. NEITHER ONE CARRIES THE OTHER.",
-    "JAGGER HAS 666 SAND KING GAMES. THE REST HAVE EXCUSES.",
-    "TOTAL LOSSES: 9142. TOTAL GAINS: UNCLEAR.",
-    "FIVE PLAYERS. FIVE DIFFERENT WAYS TO THROW A LEAD.",
-    "STATUS UPDATE // SKOGIX DIED AGAIN // THIS IS NOT AN ANOMALY // THIS IS CONTENT",
-    "SQUAD MORALE: TECHNICALLY STILL LOGGING IN. THAT COUNTS FOR SOMETHING.",
-    "NEW MODULE ONLINE // EXCUSE-O-MATIC 9000 // ALL EXCUSES PRE-DENIED",
-    "EXCUSE BACKLOG: 9142 FILED. 0 ACCEPTED. THE QUEUE GROWS.",
-    "KEVIN EXCUSE CREDIBILITY: 31%. SQUAD RECORD. THE BAR IS A TRENCH.",
-    "ZCOPE CREDIBILITY AUDIT: 2% // BELOW INSTRUMENT ERROR // READING MAY BE GENEROUS",
-    "v0.43 «THE EXCUSE UPDATE» DEPLOYED // THE SHAME PIPELINE IS NOW SELF-EXCUSING"
+    "NEW SUBJECT ONBOARDED // KARASU // HERALD 3 // RECORD BROKEN ON ARRIVAL"
   ],
   "terminal": [
     {
@@ -489,7 +512,7 @@ window.__FALLBACK_DATA__ = {
     },
     {
       "lvl": "INFO",
-      "msg": "parsing 10080 matches across 4 subjects"
+      "msg": "parsing 11247 matches across 5 subjects"
     },
     {
       "lvl": "WARN",
@@ -510,6 +533,10 @@ window.__FALLBACK_DATA__ = {
     {
       "lvl": "INFO",
       "msg": "nagasaki on 3W streak // anomaly flagged"
+    },
+    {
+      "lvl": "WARN",
+      "msg": "new subject onboarded: KARASU // 6 aliases in 12 years // ward purchases: 0"
     },
     {
       "lvl": "CRIT",
@@ -787,6 +814,18 @@ window.__FALLBACK_DATA__ = {
       "gpm": 342,
       "date": "04/25",
       "badge": "RESPAWN TIMER EXPERT"
+    },
+    {
+      "player": "karasu",
+      "hero": "Monkey King",
+      "heroImg": "🐒",
+      "deaths": 23,
+      "k": 12,
+      "a": 34,
+      "dur": "69:18",
+      "gpm": 491,
+      "date": "01/28",
+      "badge": "NEW HIGH SCORE"
     }
   ],
   "kda": [
