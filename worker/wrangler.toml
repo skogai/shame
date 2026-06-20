@@ -10,5 +10,16 @@ kv_namespaces = [
   { binding = "SHAME_KV", id = "991b275ce576427795c436d1d5cbc061" }
 ]
 
+# D1 (SQLite) — stores match HISTORY (one row per match). Squad/disses/shame
+# stay in KV; only `match` is backed by D1. Provision + wire up with:
+#   ./setup-d1.sh
+# That runs `wrangler d1 create shame-db` and pastes the database_id below.
+# The placeholder is fine to commit; setup-d1.sh overwrites it in place.
+migrations_dir = "migrations"
+[[d1_databases]]
+binding = "SHAME_DB"
+database_name = "shame-db"
+database_id = "PLACEHOLDER_RUN_SETUP_D1"
+
 # ADMIN_PASSWORD is a secret — set with:
 #   wrangler secret put ADMIN_PASSWORD
