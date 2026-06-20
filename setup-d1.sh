@@ -31,9 +31,17 @@ if [[ -z "$DB_ID" ]]; then
 fi
 [[ -n "$DB_ID" ]] || { echo "!! no database_id; aborting"; exit 1; }
 
-echo "==> Writing database_id $DB_ID into $TOML..."
-# replace whatever is currently set for database_id (placeholder or stale id)
-sed -i.bak -E "s/^(database_id = )\".*\"/\1\"$DB_ID\"/" "$TOML" && rm -f "$TOML.bak"
+echo "==> Enabling D1 binding + writing database_id $DB_ID into $TOML..."
+# Uncomment the (committed-as-disabled) d1 block, then set the id. Idempotent:
+# if the block is already active, the uncomment passes are no-ops.
+sed -i.bak -E \
+  -e 's/^# (\[\[d1_databases\]\])/\1/' \
+  -e 's/^# (binding = "SHAME_DB")/\1/' \
+  -e 's/^# (database_name = "shame-db")/\1/' \
+  -e 's/^# (database_id = ).*/\1""/' \
+  "$TOML"
+sed -i.bak -E "s|^(database_id = )\".*\"|\1\"$DB_ID\"|" "$TOML"
+rm -f "$TOML.bak"
 
 echo "==> Applying migrations (remote)..."
 wrangler d1 migrations apply "$DB_NAME" --remote -c "$TOML"

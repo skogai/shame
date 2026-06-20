@@ -11,15 +11,21 @@ kv_namespaces = [
 ]
 
 # D1 (SQLite) — stores match HISTORY (one row per match). Squad/disses/shame
-# stay in KV; only `match` is backed by D1. Provision + wire up with:
-#   ./setup-d1.sh
-# That runs `wrangler d1 create shame-db` and pastes the database_id below.
-# The placeholder is fine to commit; setup-d1.sh overwrites it in place.
+# stay in KV; only `match` is backed by D1.
+#
+# The binding is intentionally COMMENTED OUT until provisioned: a committed
+# database_id can't be a real one, and an invalid id makes any build that reads
+# this file hard-fail. With the block disabled the worker still deploys and the
+# `match` key transparently falls back to KV (see hasD1() in src/index.js).
+#
+# Enable it with:  ./setup-d1.sh
+# That runs `wrangler d1 create shame-db`, uncomments the block below, and fills
+# in database_id. Re-runnable.
 migrations_dir = "migrations"
-[[d1_databases]]
-binding = "SHAME_DB"
-database_name = "shame-db"
-database_id = "PLACEHOLDER_RUN_SETUP_D1"
+# [[d1_databases]]
+# binding = "SHAME_DB"
+# database_name = "shame-db"
+# database_id = ""
 
 # ADMIN_PASSWORD is a secret — set with:
 #   wrangler secret put ADMIN_PASSWORD
