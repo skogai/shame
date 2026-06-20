@@ -33,6 +33,7 @@ working example):
 ```json
 {
   "match_id": <number>,
+  "start_time": <unix seconds>,   // OpenDota `start_time`; powers match-history ordering/dates in D1
   "duration": <seconds>,
   "radiant_win": <bool>,
   "radiant_score": <number>,

@@ -42,13 +42,33 @@ Boot order is controlled by the script list in `index.html` — `shared.jsx` mus
 | Route | Auth | Purpose |
 |-------|------|---------|
 | `POST /auth` | password in body | Verifies admin password |
-| `GET /data/:key` | none | Returns JSON from KV (5s edge cache) |
-| `PUT /data/:key` | `Bearer <ADMIN_PASSWORD>` | Writes JSON to KV |
-| `GET /list` | bearer | Dumps all keys |
+| `GET /data/:key` | none | Returns JSON (5s edge cache). `match` = latest row from D1; others from KV |
+| `PUT /data/:key` | `Bearer <ADMIN_PASSWORD>` | Writes JSON. `match` upserts into D1 (+ KV mirror); others to KV |
+| `GET /list` | bearer | Dumps all KV keys |
+| `GET /matches` | none | Match history summary, newest first (D1) |
+| `GET /matches/:id` | none | Full shaped JSON for one match (D1) |
+| `GET /trends` | none | Per-player aggregates across all matches (D1) |
 
 `ALLOWED_KEYS` is hard-coded to `{squad, disses, shame, match}`. To introduce a new data key, you must update **all four** of: `worker/src/index.js`, `data-loader.js`, `fallback-data.js`, and the `applyToWindow`/state list in `components/admin.jsx`.
 
-KV binding: `SHAME_KV` (id `991b275ce576427795c436d1d5cbc061` is committed in `worker/wrangler.toml` and `public/wrangler.toml`). `ADMIN_PASSWORD` is a Worker secret — set with `wrangler secret put ADMIN_PASSWORD`.
+KV binding: `SHAME_KV` (id `991b275ce576427795c436d1d5cbc061` is committed in `worker/wrangler.toml`). `ADMIN_PASSWORD` is a Worker secret — set with `wrangler secret put ADMIN_PASSWORD`.
+
+### Match history (D1)
+
+`squad`, `disses`, `shame` are KV singletons. `match` is special: it's backed by a
+**Cloudflare D1** (SQLite) database `shame-db` so matches accumulate as history
+instead of overwriting. `GET /data/match` still returns the same single-match JSON
+shape the autopsy UI expects (the latest row's `raw` column), so the offline
+fallback and frontend are unchanged.
+
+- Schema + migrations: `worker/migrations/*.sql` (`matches`, `match_players`).
+- D1 binding `SHAME_DB` in `worker/wrangler.toml` (binding committed with a
+  placeholder `database_id`).
+- Provision everything (create DB, wire id, migrate, deploy, seed) with the
+  one-shot `./setup-d1.sh` from the repo root. Re-runnable.
+- `PUT /data/match` upserts the match row + a `match_players` row per tracked
+  squad player (any top-level key carrying `fight_part`; `enemy_carry` is
+  excluded by that rule). KV still mirrors the latest match for `/list`/fallback.
 
 ### Admin panel (`components/admin.jsx`)
 
