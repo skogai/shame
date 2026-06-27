@@ -22,10 +22,10 @@ kv_namespaces = [
 # That runs `wrangler d1 create shame-db`, uncomments the block below, and fills
 # in database_id. Re-runnable.
 migrations_dir = "migrations"
-# [[d1_databases]]
-# binding = "SHAME_DB"
-# database_name = "shame-db"
-# database_id = ""
+[[d1_databases]]
+binding = "SHAME_DB"
+database_name = "shame-db"
+database_id = "1fe2160f-ea0b-4ea0-a48c-32c5a54fcab1"
 
 # ADMIN_PASSWORD is a secret — set with:
 #   wrangler secret put ADMIN_PASSWORD
